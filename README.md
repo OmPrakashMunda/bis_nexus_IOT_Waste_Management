@@ -96,10 +96,8 @@ GET  /waste-types   - Distribution data
 - Real-time monitoring of 20 bins
 
 ## Team
-- [Name] - AI/Backend
-- [Name] - IoT/Hardware
-- [Name] - Frontend
-- [Name] - Documentation
+- Prashi
+- Om Prakash
 
 ## Future Scope
 - Mobile app integration
@@ -107,7 +105,7 @@ GET  /waste-types   - Distribution data
 - Solar-powered bins
 - City-wide deployment
 
-## Demo
+## Screenshot
 ![Dashboard Screenshot](dashboard.png)
 
 ## Installation
