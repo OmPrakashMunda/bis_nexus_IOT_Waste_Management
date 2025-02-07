@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Waste Management</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css">
+    <style>
+        :root {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --text-primary: #e2e8f0;
+            --text-secondary: #94a3b8;
+            --accent: #3b82f6;
+            --danger: #ef4444;
+            --success: #22c55e;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, sans-serif;
+        }
+
+        body {
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+
+        .dashboard {
+            padding: 24px;
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+
+        .header {
+            margin-bottom: 32px;
+            padding: 20px;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--accent), #60a5fa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .stat-card {
+            background: var(--bg-secondary);
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .stat-card h3 {
+            color: var(--text-secondary);
+            font-size: 16px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .stat-card .value {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin: 32px 0;
+        }
+
+        .chart-card {
+            background: var(--bg-secondary);
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .chart-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .chart-title {
+            color: var(--text-primary);
+            font-size: 18px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 24px;
+        }
+
+        #map {
+            height: 600px;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .bins-list {
+            background: var(--bg-secondary);
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .bins-list::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .bins-list::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+        }
+
+        .bins-list::-webkit-scrollbar-thumb {
+            background: var(--accent);
+            border-radius: 4px;
+        }
+
+        .bin-item {
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.2s;
+        }
+
+        .bin-item:hover {
+            transform: scale(1.02);
+        }
+
+        .bin-info h4 {
+            color: var(--text-primary);
+            margin-bottom: 4px;
+            font-size: 16px;
+        }
+
+        .bin-info p {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .dispatch-btn {
+            background: var(--accent);
+            color: white;
+            border: none;
+            margin-top: 10px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .dispatch-btn:hover {
+            background: #2563eb;
+            transform: scale(1.05);
+        }
+
+        .status-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .status-badge.full {
+            background: rgba(239, 68, 68, 0.2);
+            color: var(--danger);
+        }
+
+        .status-badge.normal {
+            background: rgba(34, 197, 94, 0.2);
+            color: var(--success);
+        }
+
+        @media (max-width: 1024px) {
+            .main-content, .charts-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            #map {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">
+            <h1>Smart Waste Management</h1>
+        </div>
+
+        <div class="stats-container">
+            <div class="stat-card">
+                <h3>📊 Total Bins</h3>
+                <div class="value" id="total-bins">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>⚠️ Full Bins</h3>
+                <div class="value" id="full-bins">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>🚛 Active Trucks</h3>
+                <div class="value" id="active-trucks">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>♻️ Total Collected</h3>
+                <div class="value" id="total-collected">0 kg</div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div id="map"></div>
+            <div class="bins-list" id="bins-list"></div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-card">
+                <h3 class="chart-title">📈 Waste Collection Trend</h3>
+                <canvas id="wasteChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">🗑️ Bin Fill Rate Analysis</h3>
+                <canvas id="fillRateChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">🚛 Truck Activity</h3>
+                <canvas id="truckChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">♻️ Waste Type Distribution</h3>
+                <canvas id="wasteTypeChart"></canvas>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const map = L.map('map').setView([20.289594, 85.835212], 12);
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            attribution: '©OpenStreetMap, ©CartoDB'
+        }).addTo(map);
+
+        let markers = [];
+
+        function updateDashboard() {
+            const bins = Array.from({length: 20}, (_, i) => ({
+                id: i + 1,
+                location: {
+                    lat: 20.289594 + (Math.random() - 0.5) * 0.1,
+                    lng: 85.835212 + (Math.random() - 0.5) * 0.1
+                },
+                fillLevel: Math.floor(Math.random() * 100),
+                status: Math.random() > 0.7 ? 'full' : 'normal',
+                lastUpdated: new Date().toLocaleTimeString()
+            }));
+
+            $('#total-bins').text(bins.length);
+            $('#full-bins').text(bins.filter(bin => bin.status === 'full').length);
+            $('#active-trucks').text(Math.floor(Math.random() * 5));
+            $('#total-collected').text(`${Math.floor(Math.random() * 1000)} kg`);
+
+            const binsList = $('#bins-list');
+            binsList.empty();
+            
+            bins.forEach(bin => {
+                const binHtml = `
+                    <div class="bin-item">
+                        <div class="bin-info">
+                            <h4>Bin #${bin.id}</h4>
+                            <p>Fill Level: ${bin.fillLevel}%</p>
+                            <p style="font-size: 12px; color: var(--text-secondary);">Last Updated: ${bin.lastUpdated}</p>
+                        </div>
+                        <div style="text-align: right;">
+                            <span class="status-badge ${bin.status}">${bin.status.toUpperCase()}</span>
+                            ${bin.status === 'full' ? 
+                                `<br><button class="dispatch-btn" onclick="dispatchTruck(${bin.id})">Dispatch</button>` : 
+                                ''}
+                        </div>
+                    </div>
+                `;
+                binsList.append(binHtml);
+            });
+
+            markers.forEach(marker => map.removeLayer(marker));
+            markers = bins.map(bin => {
+                const markerColor = bin.status === 'full' ? 'red' : 'blue';
+                const marker = L.circleMarker([bin.location.lat, bin.location.lng], {
+                    radius: 8,
+                    fillColor: markerColor,
+                    color: '#fff',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                }).bindPopup(`
+                    <div style="color: black;">
+                        <strong>Bin #${bin.id}</strong><br>
+                        Fill Level: ${bin.fillLevel}%<br>
+                        Status: ${bin.status.toUpperCase()}
+                    </div>
+                `).addTo(map);
+                return marker;
+            });
+        }
+
+        function initCharts() {
+            new Chart(document.getElementById('wasteChart'), {
+                type: 'line',
+                data: {
+                    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+                    datasets: [{
+                        label: 'Total Waste (tons)',
+                        data: [120, 150, 180, 165, 190, 210],
+                        borderColor: '#3b82f6',
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            labels: { color: '#e2e8f0' }
+                        }
+                    },
+                    scales: {
+                        y: { grid: { color: '#334155' }, ticks: { color: '#e2e8f0' } },
+                        x: { grid: { color: '#334155' }, ticks: { color: '#e2e8f0' } }
+                    }
+                }
+            });
+
+            new Chart(document.getElementById('fillRateChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['0-20%', '21-40%', '41-60%', '61-80%', '81-100%'],
+                    datasets: [{
+                        label: 'Number of Bins',
+                        data: [5, 8, 12, 7, 3],
+                        backgroundColor: '#60a5fa'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            labels: { color: '#e2e8f0' }
+                        }
+                    },
+                    scales: {
+                        y: { grid: { color: '#334155' }, ticks: { color: '#e2e8f0' } },
+                        x: { grid: { color: '#334155' }, ticks: { color: '#e2e8f0' } }
+                    }
+                }
+            });
+
+            new Chart(document.getElementById('truckChart'), {
+                type: 'line',
+                data: {
+                    labels: Array.from({length: 24}, (_, i) => `${i}:00`),
+                    datasets: [{
+                        label: 'Active Trucks',
+                        data: Array.from({length: 24}, () => Math.floor(Math.random() * 5) + 1),
+                        borderColor: '#22c55e',
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            labels: { color: '#e2e8f0' }
+                        }
+                    },
+                    scales: {
+                        y: { 
+                            grid: { color: '#334155' }, 
+                            ticks: { color: '#e2e8f0' },
+                            min: 0,
+                            max: 10
+                        },
+                        x: { grid: { color: '#334155' }, ticks: {color: '#e2e8f0' },
+                            maxTicksLimit: 12
+                        }
+                    }
+                }
+            });
+
+            new Chart(document.getElementById('wasteTypeChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['Organic', 'Recyclable', 'General', 'Hazardous'],
+                    datasets: [{
+                        data: [40, 30, 20, 10],
+                        backgroundColor: ['#22c55e', '#3b82f6', '#eab308', '#ef4444']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'right',
+                            labels: { color: '#e2e8f0' }
+                        }
+                    }
+                }
+            });
+        }
+
+        function dispatchTruck(binId) {
+            const toast = document.createElement('div');
+            toast.style.cssText = `
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background: var(--accent);
+                color: white;
+                padding: 16px 24px;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+                animation: slideIn 0.3s ease-out;
+                z-index: 1000;
+            `;
+            toast.textContent = `Dispatching truck to Bin #${binId}`;
+            document.body.appendChild(toast);
+            setTimeout(() => {
+                toast.style.animation = 'slideOut 0.3s ease-in';
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideIn {
+                from { transform: translateX(100%); opacity: 0; }
+                to { transform: translateX(0); opacity: 1; }
+            }
+            @keyframes slideOut {
+                from { transform: translateX(0); opacity: 1; }
+                to { transform: translateX(100%); opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
+
+        updateDashboard();
+        initCharts();
+
+        setInterval(() => {
+            updateDashboard();
+            initCharts();
+        }, 5000);
+    </script>
+</body>
+</html>
