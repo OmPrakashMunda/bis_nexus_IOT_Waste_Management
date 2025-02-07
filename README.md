@@ -66,6 +66,8 @@ ECHO_PIN -> D8
 VCC -> 5V
 GND -> GND
 ```
+## Circuit Diagram
+![Circuit Diagram](images/circuit.webp)
 
 2. Software Setup
 ```bash
@@ -106,7 +108,7 @@ GET  /waste-types   - Distribution data
 - City-wide deployment
 
 ## Screenshot
-![Dashboard Screenshot](dashboard.png)
+![Dashboard Screenshot](images/dashboard.png)
 
 ## Installation
 ```bash
