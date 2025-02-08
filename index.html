@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Smart Waste Management</title>
@@ -210,17 +211,25 @@
             color: var(--success);
         }
 
+        .status-badge.almost-full {
+            background: rgba(255, 165, 0, 0.2);
+            color: orange;
+        }
+
         @media (max-width: 1024px) {
-            .main-content, .charts-grid {
+
+            .main-content,
+            .charts-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             #map {
                 height: 400px;
             }
         }
     </style>
 </head>
+
 <body>
     <div class="dashboard">
         <div class="header">
@@ -280,64 +289,148 @@
 
         let markers = [];
 
-        function updateDashboard() {
-            const bins = Array.from({length: 20}, (_, i) => ({
-                id: i + 1,
-                location: {
-                    lat: 20.289594 + (Math.random() - 0.5) * 0.1,
-                    lng: 85.835212 + (Math.random() - 0.5) * 0.1
+        async function updateDashboard() {
+            let hardwareData = null;
+            let isHardwareConnected = false;
+
+            try {
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 5000); // 5 second timeout
+
+                const response = await fetch('https://iotwm-api.teamitj.tech/api/bins', {
+                    signal: controller.signal
+                });
+
+                clearTimeout(timeoutId);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                hardwareData = await response.json();
+                isHardwareConnected = true;
+            } catch (error) {
+                console.log('Hardware connection failed:', error.message);
+                hardwareData = {
+                    bin1: {
+                        fillLevel: Math.floor(Math.random() * 100),
+                        timestamp: Date.now()
+                    },
+                    bin2: {
+                        fillLevel: Math.floor(Math.random() * 100),
+                        timestamp: Date.now()
+                    }
+                };
+            }
+
+            const bins = [
+                {
+                    id: 1,
+                    location: {
+                        lat: 20.289594,
+                        lng: 85.835212
+                    },
+                    fillLevel: hardwareData.bin1.fillLevel,
+                    status: hardwareData.bin1.fillLevel >= 90 ? 'full' :
+                        hardwareData.bin1.fillLevel >= 75 ? 'almost-full' : 'normal',
+                    lastUpdated: new Date(hardwareData.bin1.timestamp).toLocaleTimeString(),
+                    isHardware: true,
+                    isConnected: isHardwareConnected
                 },
-                fillLevel: Math.floor(Math.random() * 100),
-                status: Math.random() > 0.7 ? 'full' : 'normal',
-                lastUpdated: new Date().toLocaleTimeString()
-            }));
+                {
+                    id: 2,
+                    location: {
+                        lat: 20.289694,
+                        lng: 85.835312
+                    },
+                    fillLevel: hardwareData.bin2.fillLevel,
+                    status: hardwareData.bin2.fillLevel >= 90 ? 'full' :
+                        hardwareData.bin2.fillLevel >= 75 ? 'almost-full' : 'normal',
+                    lastUpdated: new Date(hardwareData.bin2.timestamp).toLocaleTimeString(),
+                    isHardware: true,
+                    isConnected: isHardwareConnected
+                }
+            ];
 
-            $('#total-bins').text(bins.length);
-            $('#full-bins').text(bins.filter(bin => bin.status === 'full').length);
-            $('#active-trucks').text(Math.floor(Math.random() * 5));
-            $('#total-collected').text(`${Math.floor(Math.random() * 1000)} kg`);
+            for (let i = 3; i <= 20; i++) {
+                const fillLevel = Math.floor(Math.random() * 100);
+                bins.push({
+                    id: i,
+                    location: {
+                        lat: 20.289594 + (Math.random() - 0.5) * 0.1,
+                        lng: 85.835212 + (Math.random() - 0.5) * 0.1
+                    },
+                    fillLevel,
+                    status: fillLevel >= 90 ? 'full' :
+                        fillLevel >= 75 ? 'almost-full' : 'normal',
+                    lastUpdated: new Date().toLocaleTimeString(),
+                    isHardware: false,
+                    isConnected: true
+                });
+            }
 
-            const binsList = $('#bins-list');
-            binsList.empty();
-            
+            const binsList = document.getElementById('bins-list');
+            binsList.innerHTML = '';
+            const fragment = document.createDocumentFragment();
+
             bins.forEach(bin => {
-                const binHtml = `
-                    <div class="bin-item">
-                        <div class="bin-info">
-                            <h4>Bin #${bin.id}</h4>
-                            <p>Fill Level: ${bin.fillLevel}%</p>
-                            <p style="font-size: 12px; color: var(--text-secondary);">Last Updated: ${bin.lastUpdated}</p>
-                        </div>
-                        <div style="text-align: right;">
-                            <span class="status-badge ${bin.status}">${bin.status.toUpperCase()}</span>
-                            ${bin.status === 'full' ? 
-                                `<br><button class="dispatch-btn" onclick="dispatchTruck(${bin.id})">Dispatch</button>` : 
-                                ''}
-                        </div>
-                    </div>
-                `;
-                binsList.append(binHtml);
+                const binItem = document.createElement('div');
+                binItem.classList.add('bin-item');
+                binItem.innerHTML = `
+            <div class="bin-info">
+                <h4>${bin.isHardware ? `${bin.isConnected ? '📡' : '❌'} Smart` : ''} Bin #${bin.id}</h4>
+                <p>Fill Level: ${bin.fillLevel}%</p>
+                <p style="font-size: 12px; color: var(--text-secondary);">
+                    Last Updated: ${bin.lastUpdated}
+                    ${bin.isHardware ?
+                        `<br>(${bin.isConnected ? 'Hardware Sensor' : 'Hardware Offline - Using Simulated Data'})` :
+                        ' (Simulated)'}
+                </p>
+            </div>
+            <div style="text-align: right;">
+                <span class="status-badge ${bin.status}">
+                    ${bin.status.replace('-', ' ').toUpperCase()}
+                </span>
+                ${bin.fillLevel >= 75 ?
+                        `<br><button class="dispatch-btn" onclick="dispatchTruck(${bin.id})">
+                        Dispatch
+                    </button>` : ''}
+            </div>
+        `;
+                fragment.appendChild(binItem);
             });
+
+            binsList.appendChild(fragment);
+            document.getElementById('total-bins').textContent = bins.length;
+            document.getElementById('full-bins').textContent = bins.filter(bin => bin.status === 'full').length;
+            document.getElementById('active-trucks').textContent = Math.floor(Math.random() * 5);
+            document.getElementById('total-collected').textContent = `${Math.floor(Math.random() * 1000)} kg`;
 
             markers.forEach(marker => map.removeLayer(marker));
             markers = bins.map(bin => {
-                const markerColor = bin.status === 'full' ? 'red' : 'blue';
-                const marker = L.circleMarker([bin.location.lat, bin.location.lng], {
-                    radius: 8,
+                const markerColor = bin.status === 'full' ? 'red' :
+                    bin.status === 'almost-full' ? 'orange' : 'blue';
+                return L.circleMarker([bin.location.lat, bin.location.lng], {
+                    radius: bin.isHardware ? 10 : 8,
                     fillColor: markerColor,
-                    color: '#fff',
-                    weight: 2,
+                    color: bin.isHardware ? (bin.isConnected ? '#fff' : '#ff4444') : '#ccc',
+                    weight: bin.isHardware ? 3 : 2,
                     opacity: 1,
                     fillOpacity: 0.8
                 }).bindPopup(`
-                    <div style="color: black;">
-                        <strong>Bin #${bin.id}</strong><br>
-                        Fill Level: ${bin.fillLevel}%<br>
-                        Status: ${bin.status.toUpperCase()}
-                    </div>
-                `).addTo(map);
-                return marker;
+            <div style="color: black;">
+                <strong>${bin.isHardware ? `${bin.isConnected ? '📡' : '❌'} Smart` : ''} Bin #${bin.id}</strong><br>
+                Fill Level: ${bin.fillLevel}%<br>
+                Status: ${bin.status.replace('-', ' ').toUpperCase()}<br>
+                Last Updated: ${bin.lastUpdated}<br>
+                ${bin.isHardware ?
+                        `<strong>(${bin.isConnected ? 'Hardware Sensor' : 'Hardware Offline - Using Simulated Data'})</strong>` :
+                        '(Simulated)'}
+            </div>
+        `).addTo(map);
             });
+
+            showConnectionStatus(isHardwareConnected);
         }
 
         function initCharts() {
@@ -393,10 +486,10 @@
             new Chart(document.getElementById('truckChart'), {
                 type: 'line',
                 data: {
-                    labels: Array.from({length: 24}, (_, i) => `${i}:00`),
+                    labels: Array.from({ length: 24 }, (_, i) => `${i}:00`),
                     datasets: [{
                         label: 'Active Trucks',
-                        data: Array.from({length: 24}, () => Math.floor(Math.random() * 5) + 1),
+                        data: Array.from({ length: 24 }, () => Math.floor(Math.random() * 5) + 1),
                         borderColor: '#22c55e',
                         tension: 0.4
                     }]
@@ -409,13 +502,14 @@
                         }
                     },
                     scales: {
-                        y: { 
-                            grid: { color: '#334155' }, 
+                        y: {
+                            grid: { color: '#334155' },
                             ticks: { color: '#e2e8f0' },
                             min: 0,
                             max: 10
                         },
-                        x: { grid: { color: '#334155' }, ticks: {color: '#e2e8f0' },
+                        x: {
+                            grid: { color: '#334155' }, ticks: { color: '#e2e8f0' },
                             maxTicksLimit: 12
                         }
                     }
@@ -487,4 +581,5 @@
         }, 5000);
     </script>
 </body>
+
 </html>
