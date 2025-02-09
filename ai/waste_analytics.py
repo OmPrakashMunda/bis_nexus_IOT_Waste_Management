@@ -3,8 +3,6 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from datetime import datetime, timedelta
-import joblib
-import os
 
 class WasteAnalytics:
     def __init__(self, data_path="../data/waste_management_data.csv"):
