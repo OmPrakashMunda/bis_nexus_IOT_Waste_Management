@@ -1,6 +1,7 @@
 import random
 from datetime import datetime, timedelta
 import csv
+
 locations = [
     "Campus 1", "Campus 3", "Campus 4", "Campus 6", "Campus 12", "Campus 13",
     "Central Library", "KP 1", "KP 5", "KP 6", "KP 7",

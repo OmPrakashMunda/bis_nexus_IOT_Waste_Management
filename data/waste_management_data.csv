@@ -1,5 +1,5 @@
 timestamp,bin_id,fill_level,waste_type,location,collection_frequency,fill_rate
-2025-02-09 11:13:51,QC2_BIN_5,21.33,Organic,QC2,Weekly,2.43
+2025-02-09 11:13:51,QC2_BIN_5,21.33,Organic,QC2,Weekly,2.40
 2025-02-09 15:13:51,KP22_BIN_2,16.04,Organic,KP22,Twice Daily,2.1
 2025-02-09 18:13:51,QC12_BIN_3,17.76,E-waste,QC12,Twice Weekly,2.01
 2025-02-09 22:13:51,Campus1_BIN_2,16.65,Hazardous,Campus 1,Twice Weekly,0.52
