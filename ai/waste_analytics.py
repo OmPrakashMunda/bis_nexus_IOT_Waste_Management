@@ -126,7 +126,6 @@ class WasteAnalytics:
         
         return metrics
 
-# Example usage
 if __name__ == "__main__":
     analytics = WasteAnalytics()
     print("Current Status:", analytics.get_current_status())

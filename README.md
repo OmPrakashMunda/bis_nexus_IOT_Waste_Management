@@ -2,9 +2,6 @@
 BIT NEXUS Hackathon 2025 - Sustainability Domain
 Problem Statement: Smart Waste Management System Using AI and IoT
 
-## Problem Statement
-Urban waste management inefficiencies lead to overflow, resource wastage, and high operational costs.
-
 ## Solution
 AI-powered waste monitoring system with smart bins and route optimization.
 [![Flowchart](images/flowchart.png)
