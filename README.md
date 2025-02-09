@@ -22,7 +22,6 @@ Frontend:
 
 Backend:
 - FastAPI
-- SQLite Database
 - scikit-learn
 - Pandas/NumPy
 
@@ -58,8 +57,6 @@ AI Components:
   - Historical fill rates
   - Time-based patterns
   - Location-specific trends
-- Model: Random Forest Regressor
-- Accuracy: 92%
 
 #### Bin Location Optimization
 - K-means clustering algorithm
