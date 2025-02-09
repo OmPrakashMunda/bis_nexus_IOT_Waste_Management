@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from ai.waste_analytics import WasteAnalytics
 from typing import Dict, List, Any
 import uvicorn
-
 app = FastAPI(title="Smart Waste Management API")
 app.add_middleware(
     CORSMiddleware,
