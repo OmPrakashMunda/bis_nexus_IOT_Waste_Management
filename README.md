@@ -7,7 +7,7 @@ Urban waste management inefficiencies lead to overflow, resource wastage, and hi
 
 ## Solution
 AI-powered waste monitoring system with smart bins and route optimization.
-[![Flowchart](images/flowchart.png)]
+[![Flowchart](images/flowchart.png)
 
 ## Hardware Components
 - Arduino Nano ESP32
@@ -196,7 +196,7 @@ ECHO_PIN -> D8
 VCC -> 5V
 GND -> GND
 ```
-[![Circuit Diagram](images/circuit.webp)]
+[![Circuit Diagram](images/circuit.webp)
 
 2. Software Setup
 ```bash
