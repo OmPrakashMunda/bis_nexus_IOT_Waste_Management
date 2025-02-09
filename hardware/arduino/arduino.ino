@@ -3,6 +3,7 @@
 #include <ArduinoJson.h>
 #include <time.h>
 
+
 const char* ssid = "OPNETWORK";
 const char* password = "123456789";
 const char* serverUrl = "https://iotwm-api.teamitj.tech/api/bins";
@@ -14,8 +15,8 @@ const int ECHO_PIN_2 = 5;
 const float BIN_HEIGHT = 8.5;
 
 const char* ntpServer = "pool.ntp.org";
-const long gmtOffset_sec = 19800;    // IST offset: 5.5 hours = 19800 seconds
-const int daylightOffset_sec = 0;    // No daylight saving in India
+const long gmtOffset_sec = 19800;
+const int daylightOffset_sec = 0;   
 
 void setup() {
   Serial.begin(9600);
