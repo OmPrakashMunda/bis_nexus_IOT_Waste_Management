@@ -1,112 +1,78 @@
-import uvicorn
 from fastapi import FastAPI, HTTPException
-from backend.database import Database
-from ai.model import WasteManagementAI
-import unittest
-import numpy as np
-from pydantic import BaseModel
-from datetime import datetime
-from typing import List, Optional
 from fastapi.middleware.cors import CORSMiddleware
-app = FastAPI(title="Waste Management AI System")
+from ai.waste_analytics import WasteAnalytics
+from typing import Dict, List, Any
+import uvicorn
 
+app = FastAPI(title="Smart Waste Management API")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-db = Database()
-ai_model = WasteManagementAI('data/bhubaneswar_waste_data.csv')
-metrics = ai_model.train_models()
+analytics = WasteAnalytics(data_path="data/waste_management_data.csv")
 
-class BinData(BaseModel):
-   bin_id: int
-   fill_level: float
-   temperature: float
-   humidity: float
-   location_lat: float
-   location_long: float
-   waste_type: str
-   timestamp: Optional[datetime] = None
+@app.get("/")
+async def root():
+    return {"message": "Smart Waste Management API is running"}
 
-# AI Predictions
-@app.get("/predictions")
-async def get_predictions():
-   bins = ai_model.predict_collections()
-   route = ai_model.optimize_route(bins)
-   return {
-       "bins_to_collect": bins.tolist(),
-       "optimized_route": route
-   }
+@app.get("/api/current-status")
+async def get_current_status() -> Dict[str, Any]:
+    """Get current status of all waste bins."""
+    try:
+        return analytics.get_current_status()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
-# Update Bin Data
-@app.post("/update")
-async def update_bin_data(data: BinData):
-   try:
-       db.insert_bin_data(data.dict())
-       ai_model.train_models()
-       return {"status": "success", "message": "Data updated successfully"}
-   except Exception as e:
-       raise HTTPException(status_code=500, detail=str(e))
+@app.get("/api/location-analytics")
+async def get_location_analytics() -> Dict[str, Any]:
+    """Get analytics breakdown by location."""
+    try:
+        return analytics.get_location_analytics()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
-# Get Statistics
-@app.get("/stats")
-async def get_stats():
-   return db.get_statistics()
+@app.get("/api/waste-distribution")
+async def get_waste_distribution() -> Dict[str, Any]:
+    """Get waste type distribution analysis."""
+    try:
+        return analytics.get_waste_type_distribution()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
-# Get Bin Details
-@app.get("/bin/{bin_id}")
-async def get_bin_details(bin_id: int):
-   try:
-       bin_data = db.get_bin_data(bin_id)
-       return {"bin_id": bin_id, "data": bin_data}
-   except Exception as e:
-       raise HTTPException(status_code=404, detail=f"Bin {bin_id} not found")
+@app.get("/api/collection-schedule")
+async def get_collection_schedule() -> Dict[str, Any]:
+    """Get predicted collection schedule."""
+    try:
+        return analytics.predict_collection_schedule()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
-# Get All Bins
-@app.get("/bins")
-async def get_all_bins():
-   bins = db.get_all_bins()
-   return {"bins": bins}
+@app.get("/api/historical-trends")
+async def get_historical_trends(days: int = 7) -> Dict[str, Any]:
+    """Get historical waste generation trends."""
+    try:
+        return analytics.get_historical_trends(days)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
-# Get Optimized Route
-@app.get("/route")
-async def get_route():
-   bins = ai_model.predict_collections()
-   route = ai_model.optimize_route(bins)
-   return {"route": route}
+@app.get("/api/optimal-locations")
+async def get_optimal_locations() -> Dict[str, List[str]]:
+    """Get optimal bin location recommendations."""
+    try:
+        return analytics.identify_optimal_bin_locations()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
-# Get Waste Types Distribution
-@app.get("/waste-types")
-async def get_waste_distribution():
-   distribution = db.get_waste_distribution()
-   return {"distribution": distribution}
-
-# Health Check
-@app.get("/health")
-async def health_check():
-   return {"status": "healthy", "timestamp": datetime.now()}
-
-class TestWasteManagementAI(unittest.TestCase):
-   def setUp(self):
-       self.ai = WasteManagementAI('data/bhubaneswar_waste_data.csv')
-
-   def test_predict_collections(self):
-       bins = self.ai.predict_collections()
-       self.assertIsInstance(bins, np.ndarray)
-       self.assertTrue(len(bins) > 0)
-
-   def test_optimize_route(self):
-       bins = self.ai.predict_collections()
-       route = self.ai.optimize_route(bins)
-       self.assertEqual(len(route), len(bins))
+@app.get("/api/efficiency-metrics")
+async def get_efficiency_metrics() -> Dict[str, Any]:
+    """Get waste management efficiency metrics."""
+    try:
+        return analytics.get_efficiency_metrics()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
-   # Run tests
-   suite = unittest.TestLoader().loadTestsFromTestCase(TestWasteManagementAI)
-   unittest.TextTestRunner(verbosity=2).run(suite)
-   
-   # Start server
-   uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)

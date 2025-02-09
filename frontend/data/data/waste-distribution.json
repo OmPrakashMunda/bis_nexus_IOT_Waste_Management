@@ -1,0 +1,25 @@
+{
+  "data": {
+    "E-waste": {
+      "count": 184,
+      "percentage": 18.4
+    },
+    "Hazardous": {
+      "count": 227,
+      "percentage": 22.7
+    },
+    "Mixed": {
+      "count": 193,
+      "percentage": 19.3
+    },
+    "Organic": {
+      "count": 205,
+      "percentage": 20.5
+    },
+    "Recyclable": {
+      "count": 191,
+      "percentage": 19.1
+    }
+  },
+  "lastUpdated": "2025-02-09T02:53:53.521Z"
+}

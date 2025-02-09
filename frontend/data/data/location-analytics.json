@@ -1,0 +1,130 @@
+{
+  "data": {
+    "Campus 1": {
+      "fill_level": 36.37,
+      "fill_rate": 1.36,
+      "bin_id": 3
+    },
+    "Campus 12": {
+      "fill_level": 49.77,
+      "fill_rate": 1.48,
+      "bin_id": 2
+    },
+    "Campus 13": {
+      "fill_level": 31.69,
+      "fill_rate": 1.52,
+      "bin_id": 5
+    },
+    "Campus 3": {
+      "fill_level": 34.15,
+      "fill_rate": 1.69,
+      "bin_id": 2
+    },
+    "Campus 4": {
+      "fill_level": 22.56,
+      "fill_rate": 1.4,
+      "bin_id": 3
+    },
+    "Campus 6": {
+      "fill_level": 36.92,
+      "fill_rate": 1.43,
+      "bin_id": 3
+    },
+    "CentralLibrary": {
+      "fill_level": 32.68,
+      "fill_rate": 1.37,
+      "bin_id": 2
+    },
+    "KP1": {
+      "fill_level": 33.37,
+      "fill_rate": 1.55,
+      "bin_id": 5
+    },
+    "KP12": {
+      "fill_level": 36.97,
+      "fill_rate": 1.43,
+      "bin_id": 3
+    },
+    "KP22": {
+      "fill_level": 38.35,
+      "fill_rate": 1.29,
+      "bin_id": 3
+    },
+    "KP5": {
+      "fill_level": 34.92,
+      "fill_rate": 1.39,
+      "bin_id": 2
+    },
+    "KP6": {
+      "fill_level": 41.09,
+      "fill_rate": 1.63,
+      "bin_id": 4
+    },
+    "KP7": {
+      "fill_level": 29.48,
+      "fill_rate": 1.45,
+      "bin_id": 3
+    },
+    "QC1": {
+      "fill_level": 37.38,
+      "fill_rate": 1.52,
+      "bin_id": 2
+    },
+    "QC10": {
+      "fill_level": 25.87,
+      "fill_rate": 1.41,
+      "bin_id": 5
+    },
+    "QC11": {
+      "fill_level": 34.56,
+      "fill_rate": 1.65,
+      "bin_id": 4
+    },
+    "QC12": {
+      "fill_level": 36.35,
+      "fill_rate": 1.47,
+      "bin_id": 5
+    },
+    "QC2": {
+      "fill_level": 41.7,
+      "fill_rate": 1.53,
+      "bin_id": 5
+    },
+    "QC3": {
+      "fill_level": 45.18,
+      "fill_rate": 1.45,
+      "bin_id": 3
+    },
+    "QC4": {
+      "fill_level": 36.41,
+      "fill_rate": 1.54,
+      "bin_id": 2
+    },
+    "QC5": {
+      "fill_level": 22.53,
+      "fill_rate": 1.53,
+      "bin_id": 4
+    },
+    "QC6": {
+      "fill_level": 30.7,
+      "fill_rate": 1.42,
+      "bin_id": 3
+    },
+    "QC7": {
+      "fill_level": 28.06,
+      "fill_rate": 1.48,
+      "bin_id": 4
+    },
+    "QC8": {
+      "fill_level": 39.88,
+      "fill_rate": 1.54,
+      "bin_id": 2
+    },
+    "QC9": {
+      "fill_level": 34.23,
+      "fill_rate": 1.55,
+      "bin_id": 5
+    }
+  },
+  "lastUpdated": "2025-02-09T02:53:53.515Z"
+}

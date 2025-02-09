@@ -1,0 +1,1001 @@
+timestamp,bin_id,fill_level,waste_type,location,collection_frequency,fill_rate
+2025-02-09 11:13:51,QC2_BIN_5,21.33,Organic,QC2,Weekly,2.43
+2025-02-09 15:13:51,KP22_BIN_2,16.04,Organic,KP22,Twice Daily,2.1
+2025-02-09 18:13:51,QC12_BIN_3,17.76,E-waste,QC12,Twice Weekly,2.01
+2025-02-09 22:13:51,Campus1_BIN_2,16.65,Hazardous,Campus 1,Twice Weekly,0.52
+2025-02-10 02:13:51,QC10_BIN_1,12.97,Recyclable,QC10,Twice Daily,1.74
+2025-02-10 06:13:51,QC8_BIN_2,10.01,Mixed,QC8,Twice Daily,1.16
+2025-02-10 10:13:51,KP6_BIN_2,20.58,Organic,KP6,Twice Daily,2.26
+2025-02-10 11:13:51,QC4_BIN_2,13.08,Mixed,QC4,Daily,2.07
+2025-02-10 15:13:51,Campus12_BIN_2,22.25,Recyclable,Campus 12,Twice Weekly,0.83
+2025-02-10 16:13:51,QC10_BIN_4,11.63,Recyclable,QC10,Twice Daily,2.18
+2025-02-10 17:13:51,QC10_BIN_4,13.51,E-waste,QC10,Twice Daily,1.88
+2025-02-10 21:13:51,QC6_BIN_1,12.15,Hazardous,QC6,Twice Weekly,2.38
+2025-02-11 01:13:51,QC4_BIN_1,23.43,Hazardous,QC4,Twice Weekly,1.6
+2025-02-11 03:13:51,Campus13_BIN_1,9.56,Organic,Campus 13,Twice Daily,0.62
+2025-02-11 07:13:51,KP5_BIN_2,9.29,Recyclable,KP5,Daily,0.84
+2025-02-11 11:13:51,QC11_BIN_3,5.02,Recyclable,QC11,Weekly,0.54
+2025-02-11 14:13:51,QC4_BIN_1,28.56,Mixed,QC4,Twice Weekly,1.71
+2025-02-11 17:13:51,QC2_BIN_5,26.79,Mixed,QC2,Twice Weekly,1.82
+2025-02-11 20:13:51,Campus12_BIN_1,18.12,Hazardous,Campus 12,Twice Daily,0.55
+2025-02-11 22:13:51,QC1_BIN_1,10.29,Hazardous,QC1,Daily,0.86
+2025-02-11 23:13:51,KP7_BIN_1,1.69,Mixed,KP7,Daily,1.06
+2025-02-12 02:13:51,KP22_BIN_3,18.94,Organic,KP22,Weekly,1.19
+2025-02-12 03:13:51,KP7_BIN_2,7.69,Mixed,KP7,Twice Weekly,1.25
+2025-02-12 04:13:51,KP7_BIN_2,8.24,Organic,KP7,Twice Weekly,0.55
+2025-02-12 07:13:51,CentralLibrary_BIN_1,13.23,Hazardous,CentralLibrary,Daily,1.86
+2025-02-12 11:13:51,Campus1_BIN_2,24.68,Organic,Campus 1,Weekly,2.01
+2025-02-12 15:13:51,QC2_BIN_5,34.98,Organic,QC2,Daily,2.05
+2025-02-12 16:13:51,Campus1_BIN_1,10.09,Mixed,Campus 1,Daily,0.96
+2025-02-12 18:13:51,QC11_BIN_4,16.9,Recyclable,QC11,Weekly,0.99
+2025-02-12 19:13:51,Campus6_BIN_3,16.14,Mixed,Campus 6,Twice Weekly,1.11
+2025-02-12 21:13:51,QC5_BIN_4,3.84,Organic,QC5,Twice Daily,0.99
+2025-02-12 23:13:51,QC5_BIN_2,7.57,Recyclable,QC5,Daily,2.02
+2025-02-13 00:13:51,QC10_BIN_5,1.64,Organic,QC10,Weekly,0.55
+2025-02-13 04:13:51,QC2_BIN_2,27.91,Organic,QC2,Weekly,2.32
+2025-02-13 08:13:51,KP1_BIN_2,21.5,Recyclable,KP1,Twice Daily,1.2
+2025-02-13 09:13:51,QC7_BIN_1,12.91,Organic,QC7,Daily,1.88
+2025-02-13 11:13:51,QC3_BIN_2,16.35,Organic,QC3,Daily,1.34
+2025-02-13 12:13:51,KP7_BIN_2,9.3,E-waste,KP7,Twice Daily,1.06
+2025-02-13 16:13:51,KP5_BIN_2,13.34,Organic,KP5,Weekly,1.01
+2025-02-13 19:13:51,QC5_BIN_2,13.21,E-waste,QC5,Twice Daily,1.88
+2025-02-13 21:13:51,Campus6_BIN_1,19.96,Hazardous,Campus 6,Weekly,0.64
+2025-02-14 00:13:51,QC3_BIN_1,18.57,Organic,QC3,Weekly,1.8
+2025-02-14 03:13:51,QC8_BIN_1,21.88,Mixed,QC8,Twice Daily,1.17
+2025-02-14 07:13:51,QC2_BIN_2,37.08,Recyclable,QC2,Weekly,2.29
+2025-02-14 11:13:51,QC1_BIN_1,18.74,Organic,QC1,Daily,2.11
+2025-02-14 13:13:51,Campus3_BIN_2,9.67,Recyclable,Campus 3,Weekly,0.55
+2025-02-14 16:13:51,KP5_BIN_1,17.16,Hazardous,KP5,Twice Daily,2.14
+2025-02-14 19:13:51,QC9_BIN_3,9.84,Recyclable,QC9,Twice Weekly,1.13
+2025-02-14 23:13:51,KP6_BIN_3,15.88,Organic,KP6,Twice Daily,1.81
+2025-02-15 01:13:51,QC3_BIN_2,20.96,Hazardous,QC3,Daily,2.31
+2025-02-15 03:13:51,QC9_BIN_2,4.27,E-waste,QC9,Twice Daily,1.14
+2025-02-15 07:13:51,KP1_BIN_2,30.38,E-waste,KP1,Daily,2.22
+2025-02-15 10:13:51,QC5_BIN_1,3.24,Mixed,QC5,Daily,1.0
+2025-02-15 13:13:51,KP7_BIN_3,11.53,Mixed,KP7,Twice Weekly,0.92
+2025-02-15 14:13:51,QC5_BIN_2,15.11,Mixed,QC5,Daily,1.91
+2025-02-15 16:13:51,QC7_BIN_1,16.17,Mixed,QC7,Daily,1.63
+2025-02-15 17:13:51,KP1_BIN_2,31.27,E-waste,KP1,Daily,0.88
+2025-02-15 20:13:51,KP7_BIN_1,8.48,Organic,KP7,Daily,2.26
+2025-02-15 22:13:51,QC4_BIN_2,16.32,Mixed,QC4,Twice Daily,1.62
+2025-02-16 00:13:51,Campus13_BIN_1,13.63,Hazardous,Campus 13,Twice Daily,2.03
+2025-02-16 01:13:51,Campus1_BIN_3,21.59,E-waste,Campus 1,Weekly,1.68
+2025-02-16 03:13:51,QC7_BIN_3,9.6,Organic,QC7,Twice Daily,1.55
+2025-02-16 06:13:51,QC3_BIN_2,22.87,E-waste,QC3,Daily,0.64
+2025-02-16 10:13:51,QC3_BIN_3,22.29,E-waste,QC3,Twice Weekly,1.28
+2025-02-16 14:13:51,QC12_BIN_5,19.97,Organic,QC12,Twice Weekly,2.2
+2025-02-16 16:13:51,QC7_BIN_4,7.6,E-waste,QC7,Weekly,1.84
+2025-02-16 20:13:51,Campus1_BIN_2,29.18,Recyclable,Campus 1,Daily,1.13
+2025-02-17 00:13:51,KP5_BIN_1,22.45,Recyclable,KP5,Twice Weekly,1.32
+2025-02-17 04:13:51,QC2_BIN_3,20.13,E-waste,QC2,Twice Daily,1.28
+2025-02-17 06:13:51,QC3_BIN_1,23.14,Recyclable,QC3,Weekly,2.29
+2025-02-17 09:13:51,KP12_BIN_1,13.62,Mixed,KP12,Weekly,0.56
+2025-02-17 12:13:51,Campus6_BIN_1,24.79,Hazardous,Campus 6,Twice Daily,1.61
+2025-02-17 15:13:51,Campus1_BIN_3,23.47,Organic,Campus 1,Weekly,0.63
+2025-02-17 17:13:51,KP22_BIN_1,10.11,E-waste,KP22,Weekly,1.34
+2025-02-17 21:13:51,KP6_BIN_3,20.91,Hazardous,KP6,Daily,1.26
+2025-02-17 23:13:51,QC10_BIN_1,15.19,E-waste,QC10,Twice Weekly,1.11
+2025-02-18 01:13:51,Campus3_BIN_1,18.46,Hazardous,Campus 3,Twice Weekly,2.1
+2025-02-18 03:13:51,QC6_BIN_2,20.25,Recyclable,QC6,Twice Daily,0.53
+2025-02-18 04:13:51,Campus4_BIN_1,10.33,E-waste,Campus 4,Twice Weekly,1.16
+2025-02-18 07:13:51,QC12_BIN_3,20.99,Mixed,QC12,Twice Daily,1.07
+2025-02-18 09:13:51,Campus4_BIN_2,9.84,Mixed,Campus 4,Weekly,0.61
+2025-02-18 11:13:51,KP6_BIN_1,22.05,E-waste,KP6,Daily,2.31
+2025-02-18 15:13:51,QC9_BIN_2,13.26,E-waste,QC9,Weekly,2.25
+2025-02-18 18:13:51,KP22_BIN_3,21.88,Organic,KP22,Twice Weekly,0.98
+2025-02-18 21:13:51,KP1_BIN_3,11.2,Mixed,KP1,Daily,2.2
+2025-02-18 23:13:51,QC9_BIN_5,19.37,Organic,QC9,Daily,1.52
+2025-02-19 00:13:51,KP1_BIN_2,32.73,Hazardous,KP1,Twice Daily,1.46
+2025-02-19 02:13:51,QC10_BIN_4,16.26,Recyclable,QC10,Weekly,1.38
+2025-02-19 03:13:51,QC11_BIN_2,6.16,Organic,QC11,Twice Daily,2.03
+2025-02-19 04:13:51,QC10_BIN_1,16.05,Organic,QC10,Twice Weekly,0.86
+2025-02-19 07:13:51,QC11_BIN_2,13.65,Mixed,QC11,Daily,2.49
+2025-02-19 10:13:51,QC2_BIN_2,40.7,Organic,QC2,Weekly,1.2
+2025-02-19 13:13:51,QC2_BIN_5,37.73,Hazardous,QC2,Twice Daily,0.92
+2025-02-19 14:13:51,QC7_BIN_2,4.29,Recyclable,QC7,Twice Daily,2.07
+2025-02-19 15:13:51,QC5_BIN_2,17.19,Recyclable,QC5,Weekly,2.08
+2025-02-19 17:13:51,QC10_BIN_1,20.52,Recyclable,QC10,Weekly,2.24
+2025-02-19 18:13:51,Campus13_BIN_3,15.42,Organic,Campus 13,Daily,2.22
+2025-02-19 21:13:51,KP7_BIN_1,13.09,Mixed,KP7,Weekly,1.54
+2025-02-20 01:13:51,Campus1_BIN_1,18.53,Recyclable,Campus 1,Daily,2.11
+2025-02-20 02:13:51,QC2_BIN_1,14.72,Hazardous,QC2,Daily,2.18
+2025-02-20 03:13:51,QC5_BIN_1,5.38,E-waste,QC5,Twice Weekly,2.14
+2025-02-20 04:13:51,KP12_BIN_3,3.22,Recyclable,KP12,Weekly,0.8
+2025-02-20 05:13:51,KP12_BIN_1,15.71,Hazardous,KP12,Weekly,2.09
+2025-02-20 06:13:51,QC8_BIN_1,22.58,Recyclable,QC8,Daily,0.71
+2025-02-20 07:13:51,QC2_BIN_5,38.37,Mixed,QC2,Weekly,0.63
+2025-02-20 10:13:51,Campus6_BIN_1,31.7,Hazardous,Campus 6,Weekly,2.3
+2025-02-20 11:13:51,QC12_BIN_2,11.48,Recyclable,QC12,Weekly,2.41
+2025-02-20 15:13:51,QC2_BIN_1,18.5,Hazardous,QC2,Twice Weekly,0.94
+2025-02-20 18:13:51,Campus4_BIN_2,17.02,Hazardous,Campus 4,Daily,2.39
+2025-02-20 22:13:51,KP12_BIN_3,13.16,Hazardous,KP12,Weekly,2.48
+2025-02-21 01:13:51,KP1_BIN_2,38.97,E-waste,KP1,Twice Weekly,2.08
+2025-02-21 02:13:51,Campus13_BIN_5,7.34,Organic,Campus 13,Daily,0.53
+2025-02-21 06:13:51,Campus6_BIN_3,18.67,Recyclable,Campus 6,Twice Weekly,0.63
+2025-02-21 10:13:51,QC2_BIN_5,41.6,Hazardous,QC2,Weekly,0.81
+2025-02-21 11:13:51,QC7_BIN_2,6.15,Mixed,QC7,Twice Weekly,1.86
+2025-02-21 14:13:51,QC10_BIN_2,5.4,Organic,QC10,Twice Weekly,0.69
+2025-02-21 17:13:51,QC11_BIN_3,12.43,Hazardous,QC11,Daily,2.47
+2025-02-21 19:13:51,Campus1_BIN_2,33.39,Organic,Campus 1,Twice Daily,2.1
+2025-02-21 23:13:51,Campus13_BIN_4,12.06,Recyclable,Campus 13,Weekly,1.91
+2025-02-22 01:13:51,QC7_BIN_4,10.2,Organic,QC7,Twice Weekly,1.3
+2025-02-22 04:13:51,CentralLibrary_BIN_1,17.12,E-waste,CentralLibrary,Weekly,1.3
+2025-02-22 05:13:51,CentralLibrary_BIN_2,14.89,Recyclable,CentralLibrary,Twice Weekly,2.25
+2025-02-22 06:13:51,QC5_BIN_2,18.4,Recyclable,QC5,Twice Weekly,1.21
+2025-02-22 07:13:51,QC6_BIN_1,12.72,Mixed,QC6,Twice Daily,0.58
+2025-02-22 10:13:51,KP1_BIN_3,16.53,Mixed,KP1,Twice Daily,1.78
+2025-02-22 11:13:51,QC9_BIN_1,16.06,Hazardous,QC9,Twice Weekly,1.91
+2025-02-22 15:13:51,Campus1_BIN_2,39.86,Hazardous,Campus 1,Daily,1.62
+2025-02-22 17:13:51,Campus4_BIN_1,15.01,E-waste,Campus 4,Weekly,2.34
+2025-02-22 20:13:51,KP22_BIN_1,16.56,E-waste,KP22,Weekly,2.15
+2025-02-22 23:13:51,Campus12_BIN_1,19.75,Organic,Campus 12,Daily,0.54
+2025-02-23 00:13:51,QC9_BIN_2,15.22,Hazardous,QC9,Twice Daily,1.96
+2025-02-23 02:13:51,Campus1_BIN_3,28.41,Recyclable,Campus 1,Weekly,2.47
+2025-02-23 06:13:51,QC3_BIN_2,28.69,E-waste,QC3,Twice Weekly,1.46
+2025-02-23 09:13:51,QC9_BIN_5,21.6,Hazardous,QC9,Twice Daily,0.75
+2025-02-23 13:13:51,KP5_BIN_2,16.89,Mixed,KP5,Twice Weekly,0.89
+2025-02-23 14:13:51,QC7_BIN_2,8.33,Recyclable,QC7,Weekly,2.19
+2025-02-23 16:13:51,Campus1_BIN_3,31.58,Mixed,Campus 1,Daily,1.58
+2025-02-23 19:13:51,Campus6_BIN_1,34.94,Hazardous,Campus 6,Twice Daily,1.08
+2025-02-23 20:13:51,KP22_BIN_1,17.12,E-waste,KP22,Daily,0.56
+2025-02-23 21:13:51,KP1_BIN_3,18.85,Recyclable,KP1,Daily,2.32
+2025-02-24 01:13:51,QC6_BIN_2,23.04,Hazardous,QC6,Twice Daily,0.7
+2025-02-24 02:13:51,KP12_BIN_1,16.49,Hazardous,KP12,Twice Weekly,0.78
+2025-02-24 03:13:51,KP22_BIN_2,17.88,Recyclable,KP22,Twice Weekly,1.84
+2025-02-24 05:13:51,QC6_BIN_3,11.44,Hazardous,QC6,Twice Daily,0.86
+2025-02-24 07:13:51,KP6_BIN_4,18.44,Recyclable,KP6,Daily,2.0
+2025-02-24 09:13:51,KP1_BIN_3,22.94,Organic,KP1,Twice Weekly,2.05
+2025-02-24 12:13:51,QC9_BIN_4,23.15,Hazardous,QC9,Daily,2.26
+2025-02-24 15:13:51,QC3_BIN_3,24.74,Organic,QC3,Weekly,0.82
+2025-02-24 17:13:51,QC12_BIN_5,21.51,Mixed,QC12,Twice Weekly,0.77
+2025-02-24 18:13:51,KP6_BIN_1,23.41,Recyclable,KP6,Daily,1.36
+2025-02-24 22:13:51,QC3_BIN_2,33.68,Hazardous,QC3,Weekly,1.25
+2025-02-25 02:13:51,QC3_BIN_2,37.39,Mixed,QC3,Twice Weekly,0.93
+2025-02-25 04:13:51,QC10_BIN_2,8.74,Recyclable,QC10,Twice Weekly,1.67
+2025-02-25 06:13:51,QC12_BIN_1,20.33,Mixed,QC12,Twice Weekly,0.86
+2025-02-25 09:13:51,QC3_BIN_2,40.31,Organic,QC3,Weekly,0.97
+2025-02-25 13:13:51,KP22_BIN_1,21.19,Hazardous,KP22,Weekly,1.02
+2025-02-25 17:13:51,QC4_BIN_2,24.51,Hazardous,QC4,Twice Weekly,2.05
+2025-02-25 18:13:51,QC9_BIN_1,17.94,Hazardous,QC9,Daily,1.88
+2025-02-25 21:13:51,Campus4_BIN_2,18.92,Mixed,Campus 4,Weekly,0.63
+2025-02-25 22:13:51,KP6_BIN_3,22.01,E-waste,KP6,Twice Weekly,1.11
+2025-02-25 23:13:51,QC6_BIN_3,13.9,Hazardous,QC6,Weekly,2.46
+2025-02-26 00:13:51,KP6_BIN_3,24.23,Recyclable,KP6,Daily,2.22
+2025-02-26 03:13:51,QC1_BIN_1,22.94,Organic,QC1,Weekly,1.4
+2025-02-26 07:13:51,KP1_BIN_5,22.19,Organic,KP1,Weekly,2.27
+2025-02-26 08:13:51,QC5_BIN_3,3.92,Hazardous,QC5,Daily,2.26
+2025-02-26 09:13:51,QC3_BIN_1,25.33,Organic,QC3,Twice Weekly,2.19
+2025-02-26 13:13:51,QC7_BIN_1,19.21,Recyclable,QC7,Daily,0.76
+2025-02-26 14:13:51,Campus13_BIN_4,13.74,Mixed,Campus 13,Weekly,1.68
+2025-02-26 17:13:51,QC2_BIN_4,24.39,Recyclable,QC2,Twice Weekly,1.66
+2025-02-26 21:13:51,KP1_BIN_3,27.95,E-waste,KP1,Twice Daily,1.25
+2025-02-27 01:13:51,QC4_BIN_2,26.58,E-waste,QC4,Weekly,0.52
+2025-02-27 05:13:51,KP22_BIN_3,25.34,Mixed,KP22,Weekly,0.87
+2025-02-27 08:13:51,QC2_BIN_5,46.88,E-waste,QC2,Weekly,1.76
+2025-02-27 09:13:51,KP22_BIN_3,26.66,E-waste,KP22,Twice Daily,1.32
+2025-02-27 10:13:51,KP7_BIN_1,14.06,E-waste,KP7,Twice Weekly,0.97
+2025-02-27 14:13:51,KP12_BIN_2,19.21,E-waste,KP12,Daily,2.16
+2025-02-27 18:13:51,QC7_BIN_1,23.08,Organic,QC7,Twice Daily,0.97
+2025-02-27 19:13:51,KP1_BIN_3,29.59,Hazardous,KP1,Twice Daily,1.64
+2025-02-27 20:13:51,QC8_BIN_1,23.91,Organic,QC8,Daily,1.33
+2025-02-28 00:13:51,QC3_BIN_3,28.84,Recyclable,QC3,Twice Daily,1.03
+2025-02-28 01:13:51,Campus13_BIN_3,16.77,Organic,Campus 13,Twice Daily,1.34
+2025-02-28 02:13:51,QC2_BIN_2,41.37,Recyclable,QC2,Daily,0.67
+2025-02-28 04:13:51,Campus3_BIN_1,23.34,Hazardous,Campus 3,Twice Weekly,2.44
+2025-02-28 08:13:51,QC3_BIN_3,31.39,Recyclable,QC3,Twice Weekly,0.64
+2025-02-28 12:13:51,QC11_BIN_1,23.84,Recyclable,QC11,Twice Daily,1.5
+2025-02-28 14:13:51,KP1_BIN_5,23.76,Mixed,KP1,Twice Weekly,0.78
+2025-02-28 18:13:51,KP22_BIN_2,20.4,E-waste,KP22,Weekly,0.63
+2025-02-28 19:13:51,QC2_BIN_5,48.81,Hazardous,QC2,Daily,1.93
+2025-02-28 20:13:51,QC4_BIN_1,29.92,E-waste,QC4,Twice Weekly,1.36
+2025-02-28 23:13:51,QC8_BIN_1,28.08,E-waste,QC8,Twice Daily,1.39
+2025-03-01 03:13:51,KP22_BIN_1,24.38,Hazardous,KP22,Twice Weekly,0.8
+2025-03-01 06:13:51,CentralLibrary_BIN_2,17.96,Recyclable,CentralLibrary,Weekly,1.02
+2025-03-01 09:13:51,Campus13_BIN_5,9.96,Hazardous,Campus 13,Twice Daily,0.87
+2025-03-01 10:13:51,Campus6_BIN_2,2.55,Hazardous,Campus 6,Daily,2.16
+2025-03-01 12:13:51,Campus12_BIN_1,23.89,Hazardous,Campus 12,Twice Daily,2.07
+2025-03-01 16:13:51,KP12_BIN_3,15.37,Mixed,KP12,Twice Weekly,0.55
+2025-03-01 20:13:51,KP12_BIN_3,24.41,Recyclable,KP12,Twice Daily,2.26
+2025-03-01 21:13:51,KP6_BIN_3,25.6,Recyclable,KP6,Weekly,1.37
+2025-03-02 01:13:51,Campus6_BIN_2,9.07,Recyclable,Campus 6,Twice Weekly,1.63
+2025-03-02 04:13:51,QC7_BIN_4,15.83,Recyclable,QC7,Weekly,1.88
+2025-03-02 07:13:51,QC9_BIN_4,29.73,Hazardous,QC9,Twice Daily,2.2
+2025-03-02 08:13:51,Campus13_BIN_2,2.43,Hazardous,Campus 13,Daily,1.48
+2025-03-02 10:13:51,Campus6_BIN_3,20.54,Organic,Campus 6,Weekly,0.94
+2025-03-02 13:13:51,QC12_BIN_5,23.18,Hazardous,QC12,Twice Daily,0.56
+2025-03-02 14:13:51,Campus4_BIN_2,20.39,Hazardous,Campus 4,Twice Weekly,1.47
+2025-03-02 18:13:51,QC3_BIN_3,40.63,Hazardous,QC3,Twice Daily,2.31
+2025-03-02 21:13:51,QC9_BIN_5,23.83,E-waste,QC9,Daily,0.74
+2025-03-03 01:13:51,Campus4_BIN_3,4.32,Mixed,Campus 4,Weekly,0.59
+2025-03-03 02:13:51,QC10_BIN_3,7.75,Mixed,QC10,Twice Weekly,1.61
+2025-03-03 06:13:51,QC7_BIN_3,14.36,Organic,QC7,Twice Weekly,1.19
+2025-03-03 07:13:51,KP1_BIN_5,25.54,Organic,KP1,Weekly,1.79
+2025-03-03 10:13:51,QC12_BIN_2,15.91,Organic,QC12,Twice Weekly,1.48
+2025-03-03 14:13:51,QC7_BIN_3,16.86,Organic,QC7,Twice Weekly,0.63
+2025-03-03 18:13:51,QC6_BIN_3,16.71,Mixed,QC6,Twice Daily,0.7
+2025-03-03 19:13:51,QC7_BIN_2,10.47,E-waste,QC7,Twice Weekly,2.14
+2025-03-03 23:13:51,QC7_BIN_3,18.88,Organic,QC7,Daily,0.51
+2025-03-04 03:13:51,QC3_BIN_2,47.05,Recyclable,QC3,Twice Weekly,1.68
+2025-03-04 04:13:51,QC2_BIN_4,25.51,Recyclable,QC2,Weekly,1.12
+2025-03-04 06:13:51,QC6_BIN_3,17.76,Hazardous,QC6,Daily,0.52
+2025-03-04 07:13:51,KP1_BIN_3,31.77,Hazardous,KP1,Twice Daily,2.18
+2025-03-04 08:13:51,QC4_BIN_2,27.47,Recyclable,QC4,Daily,0.88
+2025-03-04 10:13:51,Campus4_BIN_3,7.72,E-waste,Campus 4,Weekly,1.7
+2025-03-04 13:13:51,QC12_BIN_1,23.47,Hazardous,QC12,Twice Daily,1.05
+2025-03-04 16:13:51,QC2_BIN_3,25.13,Hazardous,QC2,Twice Weekly,1.67
+2025-03-04 17:13:51,QC11_BIN_1,25.19,Mixed,QC11,Daily,1.34
+2025-03-04 18:13:51,QC6_BIN_2,25.11,Recyclable,QC6,Twice Weekly,2.07
+2025-03-04 20:13:51,QC10_BIN_4,17.38,Mixed,QC10,Twice Daily,0.56
+2025-03-04 23:13:51,QC7_BIN_3,25.81,E-waste,QC7,Twice Daily,2.31
+2025-03-05 03:13:51,QC5_BIN_1,12.05,Hazardous,QC5,Weekly,1.67
+2025-03-05 07:13:51,KP1_BIN_2,44.85,Organic,KP1,Daily,1.47
+2025-03-05 09:13:51,QC12_BIN_2,19.11,Recyclable,QC12,Twice Daily,1.6
+2025-03-05 11:13:51,Campus13_BIN_1,18.05,E-waste,Campus 13,Twice Weekly,2.21
+2025-03-05 13:13:51,Campus3_BIN_1,26.69,Hazardous,Campus 3,Daily,1.68
+2025-03-05 14:13:51,QC4_BIN_2,29.45,Hazardous,QC4,Twice Weekly,1.98
+2025-03-05 18:13:51,QC5_BIN_3,8.51,Organic,QC5,Daily,1.15
+2025-03-05 21:13:51,QC3_BIN_3,47.27,Recyclable,QC3,Daily,2.21
+2025-03-06 00:13:51,QC7_BIN_1,29.28,E-waste,QC7,Twice Daily,2.07
+2025-03-06 02:13:51,QC2_BIN_4,26.52,Hazardous,QC2,Weekly,0.5
+2025-03-06 06:13:51,KP1_BIN_5,35.04,Mixed,KP1,Twice Weekly,2.37
+2025-03-06 08:13:51,KP7_BIN_2,13.31,Mixed,KP7,Twice Daily,2.01
+2025-03-06 10:13:51,KP7_BIN_2,16.75,Mixed,KP7,Daily,1.72
+2025-03-06 13:13:51,QC8_BIN_2,16.8,Recyclable,QC8,Twice Daily,2.26
+2025-03-06 14:13:51,KP1_BIN_1,10.89,Mixed,KP1,Weekly,1.81
+2025-03-06 15:13:51,QC7_BIN_1,29.93,E-waste,QC7,Daily,0.64
+2025-03-06 17:13:51,QC11_BIN_1,28.13,Hazardous,QC11,Twice Daily,1.47
+2025-03-06 19:13:51,QC9_BIN_1,20.49,E-waste,QC9,Weekly,1.28
+2025-03-06 20:13:51,QC4_BIN_2,30.53,Organic,QC4,Daily,1.09
+2025-03-06 22:13:51,QC4_BIN_1,32.35,Hazardous,QC4,Weekly,1.22
+2025-03-07 02:13:51,QC6_BIN_1,16.79,E-waste,QC6,Daily,1.02
+2025-03-07 03:13:51,QC11_BIN_4,19.03,Organic,QC11,Twice Daily,2.13
+2025-03-07 06:13:51,KP12_BIN_3,31.12,Hazardous,KP12,Twice Weekly,2.24
+2025-03-07 09:13:51,CentralLibrary_BIN_1,20.75,E-waste,CentralLibrary,Twice Daily,1.21
+2025-03-07 11:13:51,QC10_BIN_2,11.82,Organic,QC10,Weekly,1.54
+2025-03-07 14:13:51,Campus1_BIN_3,34.97,Organic,Campus 1,Twice Daily,1.13
+2025-03-07 17:13:51,Campus1_BIN_2,41.98,Organic,Campus 1,Weekly,0.71
+2025-03-07 19:13:51,QC9_BIN_2,17.71,Recyclable,QC9,Daily,1.24
+2025-03-07 21:13:51,QC12_BIN_4,11.52,Recyclable,QC12,Daily,1.91
+2025-03-08 00:13:51,QC10_BIN_3,10.78,Organic,QC10,Daily,1.01
+2025-03-08 03:13:51,QC5_BIN_3,14.47,Hazardous,QC5,Twice Weekly,1.99
+2025-03-08 04:13:51,Campus3_BIN_2,10.81,Recyclable,Campus 3,Daily,1.14
+2025-03-08 06:13:51,KP12_BIN_3,32.19,E-waste,KP12,Twice Daily,0.54
+2025-03-08 08:13:51,QC3_BIN_3,48.68,Organic,QC3,Daily,0.7
+2025-03-08 09:13:51,Campus3_BIN_1,28.9,Recyclable,Campus 3,Twice Daily,2.22
+2025-03-08 11:13:51,Campus1_BIN_1,21.15,Recyclable,Campus 1,Twice Daily,1.31
+2025-03-08 14:13:51,Campus6_BIN_3,26.97,Mixed,Campus 6,Weekly,2.14
+2025-03-08 17:13:51,Campus13_BIN_4,16.69,E-waste,Campus 13,Twice Weekly,0.98
+2025-03-08 19:13:51,Campus13_BIN_5,13.27,E-waste,Campus 13,Twice Daily,1.66
+2025-03-08 22:13:51,KP7_BIN_1,16.76,E-waste,KP7,Twice Daily,0.9
+2025-03-09 01:13:51,QC2_BIN_3,27.22,Organic,QC2,Daily,0.7
+2025-03-09 03:13:51,Campus6_BIN_2,12.39,Hazardous,Campus 6,Twice Weekly,1.66
+2025-03-09 06:13:51,Campus13_BIN_5,18.97,Hazardous,Campus 13,Daily,1.9
+2025-03-09 10:13:51,QC4_BIN_1,40.45,E-waste,QC4,Weekly,2.02
+2025-03-09 12:13:51,QC7_BIN_4,19.0,E-waste,QC7,Weekly,1.58
+2025-03-09 15:13:51,QC2_BIN_3,34.46,Recyclable,QC2,Twice Daily,2.41
+2025-03-09 16:13:51,Campus12_BIN_2,23.59,Organic,Campus 12,Daily,1.34
+2025-03-09 19:13:51,Campus12_BIN_1,30.21,Hazardous,Campus 12,Twice Weekly,2.11
+2025-03-09 20:13:51,Campus4_BIN_1,15.79,Mixed,Campus 4,Twice Weekly,0.78
+2025-03-09 21:13:51,Campus6_BIN_2,14.52,Hazardous,Campus 6,Weekly,2.13
+2025-03-09 22:13:51,QC12_BIN_3,21.87,Recyclable,QC12,Twice Weekly,0.88
+2025-03-10 01:13:51,QC11_BIN_2,20.53,Mixed,QC11,Daily,2.3
+2025-03-10 05:13:51,KP6_BIN_4,24.96,Mixed,KP6,Weekly,1.63
+2025-03-10 08:13:51,QC12_BIN_4,17.77,Recyclable,QC12,Twice Weekly,2.09
+2025-03-10 10:13:51,KP7_BIN_3,16.05,Mixed,KP7,Daily,2.26
+2025-03-10 12:13:51,QC10_BIN_4,19.11,Hazardous,QC10,Twice Daily,0.86
+2025-03-10 16:13:51,Campus13_BIN_5,21.16,Recyclable,Campus 13,Daily,0.55
+2025-03-10 17:13:51,QC11_BIN_3,13.31,Recyclable,QC11,Twice Weekly,0.88
+2025-03-10 21:13:51,KP7_BIN_1,21.08,Organic,KP7,Twice Daily,1.08
+2025-03-10 23:13:51,QC12_BIN_3,25.45,E-waste,QC12,Twice Daily,1.79
+2025-03-11 00:13:51,QC2_BIN_1,19.81,Hazardous,QC2,Daily,1.31
+2025-03-11 01:13:51,QC2_BIN_4,28.44,Hazardous,QC2,Twice Daily,1.93
+2025-03-11 04:13:51,QC10_BIN_2,14.88,E-waste,QC10,Daily,1.02
+2025-03-11 08:13:51,Campus13_BIN_2,5.32,E-waste,Campus 13,Weekly,0.72
+2025-03-11 11:13:51,CentralLibrary_BIN_2,21.75,Mixed,CentralLibrary,Daily,1.26
+2025-03-11 15:13:51,QC10_BIN_3,19.41,E-waste,QC10,Weekly,2.16
+2025-03-11 18:13:51,KP1_BIN_4,5.78,Recyclable,KP1,Twice Weekly,1.15
+2025-03-11 20:13:51,Campus4_BIN_3,9.68,Mixed,Campus 4,Weekly,0.98
+2025-03-11 23:13:51,KP6_BIN_2,25.1,Mixed,KP6,Twice Daily,1.51
+2025-03-12 03:13:51,KP5_BIN_1,28.56,Recyclable,KP5,Twice Daily,1.53
+2025-03-12 04:13:51,KP12_BIN_1,18.54,Hazardous,KP12,Twice Daily,2.05
+2025-03-12 07:13:51,QC9_BIN_4,36.86,Mixed,QC9,Twice Daily,2.38
+2025-03-12 09:13:51,QC9_BIN_5,26.35,Organic,QC9,Twice Weekly,1.26
+2025-03-12 10:13:51,Campus13_BIN_4,19.11,Recyclable,Campus 13,Twice Weekly,2.42
+2025-03-12 14:13:51,QC6_BIN_3,22.02,Hazardous,QC6,Daily,1.07
+2025-03-12 17:13:51,QC7_BIN_1,37.16,Mixed,QC7,Daily,2.41
+2025-03-12 19:13:51,QC9_BIN_3,11.7,Organic,QC9,Daily,0.93
+2025-03-12 20:13:51,Campus13_BIN_3,19.09,Hazardous,Campus 13,Twice Daily,2.33
+2025-03-13 00:13:51,QC12_BIN_5,33.11,Hazardous,QC12,Daily,2.48
+2025-03-13 03:13:51,QC12_BIN_4,21.91,Hazardous,QC12,Twice Daily,1.38
+2025-03-13 05:13:51,QC5_BIN_3,19.04,Recyclable,QC5,Weekly,2.29
+2025-03-13 07:13:51,Campus13_BIN_1,21.14,Organic,Campus 13,Twice Weekly,1.54
+2025-03-13 08:13:51,QC8_BIN_1,29.61,Hazardous,QC8,Twice Daily,1.53
+2025-03-13 09:13:51,Campus4_BIN_2,21.79,Mixed,Campus 4,Daily,1.39
+2025-03-13 10:13:51,KP22_BIN_2,22.87,Recyclable,KP22,Daily,2.47
+2025-03-13 13:13:51,QC7_BIN_1,41.68,Hazardous,QC7,Twice Weekly,1.5
+2025-03-13 15:13:51,QC8_BIN_2,19.34,Mixed,QC8,Daily,1.27
+2025-03-13 16:13:51,CentralLibrary_BIN_1,21.4,Hazardous,CentralLibrary,Twice Daily,0.65
+2025-03-13 19:13:51,QC9_BIN_5,31.29,Organic,QC9,Daily,1.65
+2025-03-13 20:13:51,KP1_BIN_1,12.82,Organic,KP1,Twice Daily,1.94
+2025-03-13 23:13:51,QC1_BIN_1,24.61,Hazardous,QC1,Weekly,0.56
+2025-03-14 03:13:51,KP6_BIN_2,33.09,E-waste,KP6,Twice Weekly,2.0
+2025-03-14 07:13:51,QC8_BIN_2,27.24,Organic,QC8,Twice Daily,1.98
+2025-03-14 11:13:51,QC2_BIN_4,36.26,E-waste,QC2,Twice Weekly,1.95
+2025-03-14 15:13:51,QC3_BIN_2,55.51,E-waste,QC3,Twice Daily,2.12
+2025-03-14 16:13:51,QC5_BIN_2,20.4,Hazardous,QC5,Twice Weekly,2.0
+2025-03-14 17:13:51,KP7_BIN_1,23.45,Hazardous,KP7,Twice Daily,2.37
+2025-03-14 20:13:51,KP6_BIN_3,32.6,Organic,KP6,Weekly,2.33
+2025-03-14 22:13:51,QC10_BIN_1,24.35,Hazardous,QC10,Twice Daily,1.92
+2025-03-14 23:13:51,KP1_BIN_4,7.73,Organic,KP1,Daily,1.95
+2025-03-15 00:13:51,QC3_BIN_3,51.12,Hazardous,QC3,Daily,2.45
+2025-03-15 04:13:51,KP12_BIN_3,39.22,Organic,KP12,Daily,1.76
+2025-03-15 05:13:51,Campus3_BIN_1,30.34,Recyclable,Campus 3,Twice Daily,1.43
+2025-03-15 08:13:51,QC12_BIN_4,26.07,Recyclable,QC12,Twice Daily,1.39
+2025-03-15 10:13:51,QC6_BIN_1,20.25,E-waste,QC6,Twice Daily,1.73
+2025-03-15 11:13:51,QC4_BIN_1,41.8,Mixed,QC4,Twice Weekly,1.35
+2025-03-15 12:13:51,Campus1_BIN_3,35.78,Organic,Campus 1,Twice Weekly,0.81
+2025-03-15 14:13:51,QC7_BIN_3,26.93,E-waste,QC7,Weekly,0.56
+2025-03-15 15:13:51,Campus4_BIN_2,24.13,Hazardous,Campus 4,Twice Daily,2.34
+2025-03-15 18:13:51,Campus12_BIN_1,34.84,Mixed,Campus 12,Daily,1.54
+2025-03-15 21:13:51,KP1_BIN_2,47.56,Hazardous,KP1,Twice Weekly,0.9
+2025-03-16 00:13:51,KP12_BIN_1,21.06,Recyclable,KP12,Daily,0.84
+2025-03-16 04:13:51,QC2_BIN_2,47.65,Organic,QC2,Daily,1.57
+2025-03-16 05:13:51,KP12_BIN_2,21.12,Recyclable,KP12,Twice Daily,1.91
+2025-03-16 09:13:51,QC9_BIN_5,35.89,Hazardous,QC9,Daily,1.15
+2025-03-16 10:13:51,QC9_BIN_2,18.32,E-waste,QC9,Twice Weekly,0.61
+2025-03-16 11:13:51,QC3_BIN_2,57.47,Recyclable,QC3,Twice Daily,1.96
+2025-03-16 15:13:51,QC9_BIN_2,21.21,Hazardous,QC9,Twice Daily,0.72
+2025-03-16 16:13:51,QC10_BIN_2,17.16,Recyclable,QC10,Weekly,2.28
+2025-03-16 20:13:51,KP22_BIN_2,25.23,Hazardous,KP22,Twice Weekly,0.59
+2025-03-16 23:13:51,QC5_BIN_3,21.33,Hazardous,QC5,Twice Weekly,0.76
+2025-03-17 03:13:51,KP7_BIN_1,26.15,Mixed,KP7,Twice Daily,0.68
+2025-03-17 06:13:51,Campus13_BIN_3,26.33,Hazardous,Campus 13,Twice Daily,2.41
+2025-03-17 08:13:51,QC7_BIN_1,44.58,E-waste,QC7,Twice Weekly,1.45
+2025-03-17 11:13:51,KP6_BIN_2,36.77,Mixed,KP6,Weekly,1.23
+2025-03-17 15:13:51,QC5_BIN_1,17.24,Organic,QC5,Weekly,1.3
+2025-03-17 16:13:51,Campus4_BIN_2,24.64,Mixed,Campus 4,Daily,0.51
+2025-03-17 17:13:51,Campus13_BIN_3,26.83,Organic,Campus 13,Twice Daily,0.5
+2025-03-17 19:13:51,QC10_BIN_4,20.15,E-waste,QC10,Twice Weekly,0.52
+2025-03-17 21:13:51,KP6_BIN_4,26.64,Organic,KP6,Weekly,0.84
+2025-03-18 00:13:51,Campus6_BIN_3,32.19,E-waste,Campus 6,Weekly,1.74
+2025-03-18 03:13:51,QC9_BIN_5,37.61,Recyclable,QC9,Twice Weekly,0.57
+2025-03-18 04:13:51,QC2_BIN_1,21.2,Mixed,QC2,Twice Daily,1.39
+2025-03-18 08:13:51,QC2_BIN_1,26.62,E-waste,QC2,Weekly,1.35
+2025-03-18 09:13:51,KP7_BIN_3,17.58,Hazardous,KP7,Twice Weekly,1.54
+2025-03-18 12:13:51,QC11_BIN_1,35.08,Hazardous,QC11,Twice Daily,2.32
+2025-03-18 15:13:51,QC5_BIN_3,24.57,Hazardous,QC5,Daily,1.08
+2025-03-18 16:13:51,Campus13_BIN_1,22.47,Recyclable,Campus 13,Twice Weekly,1.33
+2025-03-18 20:13:51,QC6_BIN_1,22.41,Mixed,QC6,Weekly,0.54
+2025-03-19 00:13:51,Campus13_BIN_4,26.97,Recyclable,Campus 13,Twice Weekly,1.96
+2025-03-19 01:13:51,KP6_BIN_2,38.58,Mixed,KP6,Twice Daily,1.81
+2025-03-19 02:13:51,QC11_BIN_3,15.79,Hazardous,QC11,Weekly,2.49
+2025-03-19 03:13:51,QC12_BIN_3,27.09,Hazardous,QC12,Weekly,1.64
+2025-03-19 05:13:51,QC10_BIN_5,6.27,Mixed,QC10,Twice Weekly,2.32
+2025-03-19 07:13:51,KP22_BIN_2,27.58,Recyclable,KP22,Weekly,1.18
+2025-03-19 08:13:51,QC11_BIN_4,21.31,Hazardous,QC11,Weekly,2.28
+2025-03-19 10:13:51,Campus6_BIN_2,18.32,Recyclable,Campus 6,Twice Daily,1.9
+2025-03-19 13:13:51,QC3_BIN_1,28.66,Hazardous,QC3,Twice Daily,1.11
+2025-03-19 16:13:51,KP5_BIN_2,22.25,Organic,KP5,Weekly,1.79
+2025-03-19 17:13:51,Campus13_BIN_1,24.66,Recyclable,Campus 13,Twice Daily,2.19
+2025-03-19 18:13:51,QC10_BIN_5,7.88,E-waste,QC10,Twice Weekly,1.61
+2025-03-19 22:13:51,QC6_BIN_2,34.04,Mixed,QC6,Weekly,2.23
+2025-03-20 02:13:51,QC10_BIN_4,22.77,E-waste,QC10,Twice Daily,0.66
+2025-03-20 05:13:51,KP1_BIN_3,34.08,E-waste,KP1,Twice Daily,0.77
+2025-03-20 09:13:51,Campus13_BIN_4,31.62,Organic,Campus 13,Weekly,1.16
+2025-03-20 13:13:51,KP22_BIN_2,34.84,Mixed,KP22,Twice Daily,1.81
+2025-03-20 17:13:51,Campus1_BIN_1,23.86,Hazardous,Campus 1,Twice Daily,0.68
+2025-03-20 18:13:51,QC8_BIN_1,31.4,Hazardous,QC8,Twice Weekly,1.79
+2025-03-20 21:13:51,QC1_BIN_2,5.75,E-waste,QC1,Daily,0.72
+2025-03-21 00:13:51,QC11_BIN_3,23.22,Mixed,QC11,Twice Daily,2.48
+2025-03-21 04:13:51,QC2_BIN_5,54.2,Organic,QC2,Weekly,1.35
+2025-03-21 07:13:51,KP12_BIN_2,24.41,Organic,KP12,Daily,1.1
+2025-03-21 08:13:51,Campus13_BIN_1,25.61,Recyclable,Campus 13,Twice Daily,0.94
+2025-03-21 11:13:51,QC7_BIN_2,17.49,Hazardous,QC7,Weekly,2.34
+2025-03-21 14:13:51,KP1_BIN_1,14.85,E-waste,KP1,Weekly,0.68
+2025-03-21 18:13:51,Campus13_BIN_2,10.3,Hazardous,Campus 13,Twice Weekly,1.25
+2025-03-21 19:13:51,QC9_BIN_1,22.88,Organic,QC9,Weekly,2.39
+2025-03-21 21:13:51,QC2_BIN_1,31.36,Hazardous,QC2,Twice Weekly,2.37
+2025-03-21 22:13:51,QC6_BIN_3,24.46,Recyclable,QC6,Daily,2.43
+2025-03-21 23:13:51,Campus12_BIN_1,36.53,Hazardous,Campus 12,Twice Weekly,1.69
+2025-03-22 02:13:51,QC2_BIN_1,36.42,Mixed,QC2,Weekly,1.69
+2025-03-22 04:13:51,Campus13_BIN_4,35.74,Mixed,Campus 13,Twice Weekly,2.06
+2025-03-22 06:13:51,QC5_BIN_2,21.78,Mixed,QC5,Twice Daily,0.69
+2025-03-22 08:13:51,QC2_BIN_4,37.42,Recyclable,QC2,Weekly,0.58
+2025-03-22 10:13:51,QC11_BIN_4,24.52,E-waste,QC11,Weekly,1.6
+2025-03-22 13:13:51,QC8_BIN_2,32.75,E-waste,QC8,Twice Weekly,1.84
+2025-03-22 16:13:51,Campus6_BIN_1,40.86,Mixed,Campus 6,Weekly,1.97
+2025-03-22 19:13:51,KP1_BIN_1,20.52,Organic,KP1,Twice Daily,1.89
+2025-03-22 22:13:51,KP6_BIN_4,33.74,Mixed,KP6,Weekly,2.36
+2025-03-23 01:13:51,KP1_BIN_1,23.99,Hazardous,KP1,Twice Weekly,1.16
+2025-03-23 03:13:51,Campus13_BIN_3,29.3,E-waste,Campus 13,Twice Weekly,1.23
+2025-03-23 06:13:51,KP12_BIN_3,41.11,Organic,KP12,Twice Daily,0.63
+2025-03-23 07:13:51,QC2_BIN_2,48.94,Organic,QC2,Daily,1.29
+2025-03-23 10:13:51,QC5_BIN_3,29.02,Organic,QC5,Daily,1.48
+2025-03-23 14:13:51,KP22_BIN_3,33.72,E-waste,KP22,Daily,1.77
+2025-03-23 15:13:51,QC12_BIN_5,34.44,Organic,QC12,Weekly,1.33
+2025-03-23 18:13:51,QC12_BIN_4,32.49,Organic,QC12,Daily,2.14
+2025-03-23 19:13:51,QC2_BIN_1,38.55,Hazardous,QC2,Weekly,2.13
+2025-03-23 20:13:51,KP22_BIN_2,35.98,Organic,KP22,Twice Daily,1.15
+2025-03-23 23:13:51,KP6_BIN_4,39.13,Hazardous,KP6,Daily,1.8
+2025-03-24 01:13:51,QC6_BIN_3,26.87,Recyclable,QC6,Weekly,1.21
+2025-03-24 04:13:51,KP12_BIN_3,43.79,E-waste,KP12,Twice Weekly,0.9
+2025-03-24 06:13:51,QC12_BIN_4,36.72,E-waste,QC12,Weekly,2.11
+2025-03-24 09:13:51,Campus6_BIN_3,37.9,Organic,Campus 6,Twice Weekly,1.9
+2025-03-24 12:13:51,KP12_BIN_2,30.76,Recyclable,KP12,Weekly,2.12
+2025-03-24 16:13:51,Campus1_BIN_3,44.31,Organic,Campus 1,Daily,2.13
+2025-03-24 18:13:51,QC12_BIN_1,27.67,E-waste,QC12,Weekly,2.1
+2025-03-24 21:13:51,KP7_BIN_1,31.92,Organic,KP7,Weekly,1.92
+2025-03-25 01:13:51,QC10_BIN_4,28.42,Recyclable,QC10,Daily,1.41
+2025-03-25 05:13:51,Campus3_BIN_1,38.43,Recyclable,Campus 3,Daily,2.02
+2025-03-25 07:13:51,Campus3_BIN_1,40.51,Organic,Campus 3,Daily,1.04
+2025-03-25 10:13:51,QC11_BIN_4,29.35,Recyclable,QC11,Twice Daily,1.61
+2025-03-25 14:13:51,Campus1_BIN_3,46.78,Organic,Campus 1,Daily,0.62
+2025-03-25 17:13:51,KP6_BIN_1,25.32,Organic,KP6,Twice Daily,0.64
+2025-03-25 19:13:51,QC12_BIN_2,20.92,E-waste,QC12,Twice Daily,0.91
+2025-03-25 22:13:51,KP6_BIN_2,42.24,Recyclable,KP6,Weekly,1.22
+2025-03-26 01:13:51,Campus4_BIN_1,17.7,Organic,Campus 4,Daily,0.64
+2025-03-26 03:13:51,Campus12_BIN_1,40.46,Organic,Campus 12,Weekly,1.96
+2025-03-26 06:13:51,Campus1_BIN_1,31.03,Organic,Campus 1,Twice Daily,2.39
+2025-03-26 10:13:51,QC9_BIN_3,14.54,E-waste,QC9,Twice Daily,0.71
+2025-03-26 11:13:51,Campus13_BIN_1,26.99,Hazardous,Campus 13,Twice Daily,1.39
+2025-03-26 12:13:51,QC2_BIN_3,35.91,Mixed,QC2,Twice Weekly,1.46
+2025-03-26 13:13:51,QC8_BIN_2,34.05,Hazardous,QC8,Twice Daily,1.31
+2025-03-26 16:13:51,QC9_BIN_3,20.54,Organic,QC9,Twice Weekly,2.0
+2025-03-26 20:13:51,KP5_BIN_2,28.88,Hazardous,KP5,Twice Weekly,1.66
+2025-03-26 21:13:51,KP12_BIN_3,45.23,Organic,KP12,Twice Weekly,1.44
+2025-03-26 23:13:51,QC12_BIN_5,36.03,Organic,QC12,Daily,0.8
+2025-03-27 03:13:51,KP1_BIN_5,41.99,Hazardous,KP1,Daily,1.74
+2025-03-27 05:13:51,KP12_BIN_1,25.78,E-waste,KP12,Twice Daily,2.36
+2025-03-27 08:13:51,QC7_BIN_1,46.81,E-waste,QC7,Twice Daily,0.75
+2025-03-27 09:13:51,QC8_BIN_1,33.32,E-waste,QC8,Daily,1.92
+2025-03-27 13:13:51,Campus6_BIN_2,23.57,Mixed,Campus 6,Daily,1.31
+2025-03-27 17:13:51,Campus12_BIN_1,42.72,Hazardous,Campus 12,Weekly,0.57
+2025-03-27 20:13:51,QC3_BIN_3,54.62,Organic,QC3,Twice Weekly,1.17
+2025-03-27 21:13:51,Campus1_BIN_3,47.51,Mixed,Campus 1,Twice Weekly,0.73
+2025-03-28 01:13:51,QC9_BIN_2,27.3,E-waste,QC9,Twice Weekly,1.52
+2025-03-28 02:13:51,Campus13_BIN_2,12.59,Mixed,Campus 13,Twice Daily,2.29
+2025-03-28 06:13:51,Campus13_BIN_4,39.4,Recyclable,Campus 13,Twice Daily,0.91
+2025-03-28 09:13:51,QC2_BIN_5,61.43,Recyclable,QC2,Daily,2.41
+2025-03-28 12:13:51,QC5_BIN_1,22.2,Organic,QC5,Twice Weekly,1.66
+2025-03-28 14:13:51,QC3_BIN_2,61.61,Recyclable,QC3,Twice Weekly,2.07
+2025-03-28 18:13:51,QC9_BIN_2,32.66,Hazardous,QC9,Daily,1.34
+2025-03-28 22:13:51,QC4_BIN_1,48.26,Hazardous,QC4,Twice Weekly,1.61
+2025-03-29 01:13:51,KP22_BIN_1,28.09,Organic,KP22,Twice Weekly,1.24
+2025-03-29 04:13:51,KP12_BIN_1,27.42,Mixed,KP12,Weekly,0.55
+2025-03-29 08:13:51,Campus12_BIN_1,51.24,Organic,Campus 12,Twice Daily,2.13
+2025-03-29 12:13:51,QC11_BIN_3,29.11,E-waste,QC11,Weekly,1.47
+2025-03-29 15:13:51,Campus6_BIN_3,42.28,E-waste,Campus 6,Daily,1.46
+2025-03-29 18:13:51,Campus13_BIN_5,27.04,E-waste,Campus 13,Daily,1.96
+2025-03-29 20:13:51,KP6_BIN_3,36.45,Mixed,KP6,Twice Weekly,1.93
+2025-03-29 23:13:51,KP5_BIN_2,31.23,Hazardous,KP5,Twice Daily,0.78
+2025-03-30 03:13:51,KP7_BIN_1,38.22,Hazardous,KP7,Twice Daily,1.57
+2025-03-30 06:13:51,QC9_BIN_4,41.31,Organic,QC9,Twice Daily,1.48
+2025-03-30 08:13:51,Campus3_BIN_1,44.9,E-waste,Campus 3,Twice Weekly,2.19
+2025-03-30 11:13:51,QC12_BIN_5,40.97,Hazardous,QC12,Twice Daily,1.64
+2025-03-30 14:13:51,KP5_BIN_2,36.38,Recyclable,KP5,Twice Daily,1.72
+2025-03-30 15:13:51,QC11_BIN_4,30.16,Organic,QC11,Twice Daily,0.81
+2025-03-30 18:13:51,Campus12_BIN_2,29.48,Recyclable,Campus 12,Daily,1.96
+2025-03-30 21:13:51,Campus3_BIN_1,51.5,Organic,Campus 3,Twice Weekly,2.2
+2025-03-31 01:13:51,Campus6_BIN_2,31.58,E-waste,Campus 6,Daily,2.0
+2025-03-31 05:13:51,Campus12_BIN_1,55.98,Recyclable,Campus 12,Weekly,1.18
+2025-03-31 09:13:51,KP12_BIN_3,52.58,E-waste,KP12,Twice Daily,1.84
+2025-03-31 10:13:51,KP1_BIN_4,8.99,Mixed,KP1,Twice Daily,1.26
+2025-03-31 13:13:51,QC10_BIN_2,23.07,E-waste,QC10,Daily,1.97
+2025-03-31 17:13:51,QC2_BIN_5,69.51,Hazardous,QC2,Twice Weekly,2.02
+2025-03-31 20:13:51,QC5_BIN_1,29.43,Organic,QC5,Daily,2.41
+2025-03-31 22:13:51,KP6_BIN_4,42.98,Recyclable,KP6,Daily,1.93
+2025-04-01 02:13:51,KP12_BIN_2,40.13,Hazardous,KP12,Twice Weekly,2.34
+2025-04-01 06:13:51,Campus1_BIN_2,46.29,E-waste,Campus 1,Twice Weekly,1.08
+2025-04-01 10:13:51,CentralLibrary_BIN_2,27.69,Mixed,CentralLibrary,Twice Daily,1.49
+2025-04-01 13:13:51,KP1_BIN_5,48.42,Mixed,KP1,Daily,2.15
+2025-04-01 17:13:51,KP12_BIN_1,36.89,Recyclable,KP12,Daily,2.37
+2025-04-01 18:13:51,QC2_BIN_1,40.72,Recyclable,QC2,Twice Daily,2.17
+2025-04-01 22:13:51,QC3_BIN_1,34.27,Mixed,QC3,Twice Daily,1.4
+2025-04-02 01:13:51,QC10_BIN_1,31.66,E-waste,QC10,Twice Daily,2.44
+2025-04-02 04:13:51,Campus13_BIN_4,42.79,Organic,Campus 13,Twice Weekly,1.13
+2025-04-02 06:13:51,KP22_BIN_1,32.83,Recyclable,KP22,Daily,2.37
+2025-04-02 07:13:51,Campus3_BIN_2,12.1,Hazardous,Campus 3,Weekly,1.29
+2025-04-02 08:13:51,QC5_BIN_2,23.44,Mixed,QC5,Weekly,1.66
+2025-04-02 12:13:51,KP12_BIN_2,45.65,Recyclable,KP12,Daily,1.38
+2025-04-02 16:13:51,CentralLibrary_BIN_2,30.88,Hazardous,CentralLibrary,Weekly,0.8
+2025-04-02 19:13:51,QC5_BIN_4,5.35,Organic,QC5,Daily,0.5
+2025-04-02 22:13:51,QC5_BIN_2,26.77,Mixed,QC5,Daily,1.11
+2025-04-03 00:13:51,QC7_BIN_4,21.14,Organic,QC7,Weekly,1.07
+2025-04-03 01:13:51,QC5_BIN_1,30.86,Organic,QC5,Twice Daily,1.43
+2025-04-03 02:13:51,KP7_BIN_3,19.33,Mixed,KP7,Twice Daily,1.74
+2025-04-03 06:13:51,Campus12_BIN_2,37.89,Organic,Campus 12,Daily,2.1
+2025-04-03 09:13:51,CentralLibrary_BIN_1,26.15,Recyclable,CentralLibrary,Weekly,1.58
+2025-04-03 12:13:51,QC1_BIN_1,31.94,Hazardous,QC1,Twice Weekly,2.44
+2025-04-03 16:13:51,KP1_BIN_5,53.7,Organic,KP1,Twice Weekly,1.32
+2025-04-03 19:13:51,QC9_BIN_5,39.29,Hazardous,QC9,Twice Weekly,0.56
+2025-04-03 21:13:51,QC12_BIN_3,30.55,Recyclable,QC12,Twice Weekly,1.73
+2025-04-03 23:13:51,KP22_BIN_1,33.93,Organic,KP22,Daily,0.55
+2025-04-04 01:13:51,Campus12_BIN_2,41.86,Hazardous,Campus 12,Twice Weekly,1.99
+2025-04-04 03:13:51,QC3_BIN_3,57.91,E-waste,QC3,Twice Daily,1.64
+2025-04-04 04:13:51,QC6_BIN_2,34.98,E-waste,QC6,Weekly,0.94
+2025-04-04 05:13:51,KP1_BIN_5,55.29,Mixed,KP1,Twice Daily,1.59
+2025-04-04 06:13:51,QC2_BIN_2,50.92,Hazardous,QC2,Daily,1.98
+2025-04-04 07:13:51,Campus1_BIN_2,47.97,Organic,Campus 1,Daily,1.68
+2025-04-04 11:13:51,KP6_BIN_4,51.16,Mixed,KP6,Daily,2.04
+2025-04-04 12:13:51,QC12_BIN_3,31.68,Mixed,QC12,Twice Daily,1.13
+2025-04-04 16:13:51,Campus13_BIN_4,44.88,Hazardous,Campus 13,Twice Daily,0.52
+2025-04-04 19:13:51,QC7_BIN_3,30.4,Mixed,QC7,Weekly,1.16
+2025-04-04 22:13:51,KP22_BIN_1,37.07,Recyclable,KP22,Daily,1.05
+2025-04-05 01:13:51,Campus1_BIN_3,52.6,Recyclable,Campus 1,Twice Daily,1.7
+2025-04-05 03:13:51,QC9_BIN_1,26.84,Recyclable,QC9,Twice Daily,1.98
+2025-04-05 05:13:51,Campus12_BIN_2,46.32,Mixed,Campus 12,Twice Daily,2.23
+2025-04-05 07:13:51,Campus3_BIN_1,55.89,Recyclable,Campus 3,Daily,2.2
+2025-04-05 11:13:51,QC10_BIN_3,22.79,Mixed,QC10,Weekly,0.85
+2025-04-05 14:13:51,QC12_BIN_3,34.78,Mixed,QC12,Twice Weekly,1.04
+2025-04-05 16:13:51,Campus3_BIN_1,58.61,E-waste,Campus 3,Twice Daily,1.36
+2025-04-05 19:13:51,Campus4_BIN_1,19.71,Mixed,Campus 4,Daily,0.67
+2025-04-05 23:13:51,QC7_BIN_3,37.52,E-waste,QC7,Twice Daily,1.78
+2025-04-06 03:13:51,QC10_BIN_2,25.71,Recyclable,QC10,Weekly,0.66
+2025-04-06 07:13:51,QC9_BIN_3,24.11,Hazardous,QC9,Twice Weekly,0.89
+2025-04-06 11:13:51,Campus12_BIN_2,48.83,E-waste,Campus 12,Daily,0.63
+2025-04-06 13:13:51,KP12_BIN_3,56.01,Recyclable,KP12,Twice Weekly,1.71
+2025-04-06 17:13:51,KP7_BIN_1,47.1,E-waste,KP7,Weekly,2.22
+2025-04-06 18:13:51,QC2_BIN_3,37.37,E-waste,QC2,Twice Weekly,1.46
+2025-04-06 21:13:51,QC3_BIN_3,63.21,Organic,QC3,Daily,1.77
+2025-04-07 00:13:51,QC11_BIN_3,34.0,Organic,QC11,Weekly,1.63
+2025-04-07 04:13:51,KP1_BIN_3,44.07,E-waste,KP1,Daily,2.5
+2025-04-07 06:13:51,KP22_BIN_3,37.56,Hazardous,KP22,Weekly,1.92
+2025-04-07 07:13:51,KP5_BIN_1,29.06,E-waste,KP5,Twice Daily,0.5
+2025-04-07 11:13:51,QC9_BIN_1,35.85,E-waste,QC9,Weekly,2.25
+2025-04-07 13:13:51,CentralLibrary_BIN_2,33.26,Hazardous,CentralLibrary,Weekly,1.19
+2025-04-07 17:13:51,QC8_BIN_1,41.19,E-waste,QC8,Daily,1.97
+2025-04-07 20:13:51,KP1_BIN_3,46.07,Mixed,KP1,Twice Weekly,0.67
+2025-04-07 22:13:51,Campus4_BIN_2,27.37,E-waste,Campus 4,Twice Weekly,1.36
+2025-04-08 02:13:51,QC9_BIN_4,45.01,Hazardous,QC9,Weekly,0.92
+2025-04-08 04:13:51,Campus4_BIN_1,21.11,E-waste,Campus 4,Twice Weekly,0.7
+2025-04-08 07:13:51,QC8_BIN_1,47.29,Organic,QC8,Twice Daily,2.03
+2025-04-08 08:13:51,CentralLibrary_BIN_1,27.17,Mixed,CentralLibrary,Twice Weekly,1.02
+2025-04-08 09:13:51,KP12_BIN_1,37.97,Recyclable,KP12,Weekly,1.08
+2025-04-08 12:13:51,Campus1_BIN_1,35.61,E-waste,Campus 1,Twice Weekly,1.53
+2025-04-08 14:13:51,QC6_BIN_1,27.07,Recyclable,QC6,Twice Weekly,2.33
+2025-04-08 16:13:51,QC10_BIN_2,27.95,Hazardous,QC10,Twice Weekly,1.12
+2025-04-08 17:13:51,Campus4_BIN_1,22.76,Hazardous,Campus 4,Twice Daily,1.65
+2025-04-08 19:13:51,Campus4_BIN_3,10.82,Recyclable,Campus 4,Daily,0.57
+2025-04-08 20:13:51,QC9_BIN_3,25.74,Recyclable,QC9,Daily,1.63
+2025-04-09 00:13:51,Campus1_BIN_2,50.71,Organic,Campus 1,Twice Weekly,0.69
+2025-04-09 02:13:51,QC8_BIN_1,49.49,E-waste,QC8,Twice Weekly,1.1
+2025-04-09 03:13:51,KP1_BIN_4,9.89,Recyclable,KP1,Twice Weekly,0.9
+2025-04-09 05:13:51,QC3_BIN_2,65.3,Mixed,QC3,Twice Weekly,1.85
+2025-04-09 09:13:51,QC10_BIN_5,13.61,Mixed,QC10,Weekly,1.43
+2025-04-09 12:13:51,QC9_BIN_4,47.45,Organic,QC9,Daily,0.81
+2025-04-09 15:13:51,Campus6_BIN_2,34.12,Recyclable,Campus 6,Twice Daily,0.85
+2025-04-09 16:13:51,QC10_BIN_5,14.79,Organic,QC10,Weekly,1.18
+2025-04-09 17:13:51,KP6_BIN_3,38.33,Mixed,KP6,Daily,1.88
+2025-04-09 21:13:51,QC3_BIN_2,71.94,E-waste,QC3,Daily,1.66
+2025-04-09 22:13:51,QC3_BIN_3,63.98,Hazardous,QC3,Daily,0.77
+2025-04-10 00:13:51,Campus3_BIN_2,13.57,E-waste,Campus 3,Twice Daily,0.73
+2025-04-10 01:13:51,KP22_BIN_1,37.58,E-waste,KP22,Daily,0.51
+2025-04-10 04:13:51,QC10_BIN_2,31.93,Mixed,QC10,Twice Daily,1.32
+2025-04-10 06:13:51,KP6_BIN_2,45.84,Recyclable,KP6,Twice Weekly,1.8
+2025-04-10 10:13:51,Campus3_BIN_1,65.93,Mixed,Campus 3,Weekly,1.83
+2025-04-10 12:13:51,CentralLibrary_BIN_2,35.84,Recyclable,CentralLibrary,Daily,1.29
+2025-04-10 16:13:51,KP1_BIN_1,33.32,E-waste,KP1,Daily,2.33
+2025-04-10 20:13:51,Campus4_BIN_3,18.41,Hazardous,Campus 4,Twice Weekly,1.9
+2025-04-10 23:13:51,Campus6_BIN_1,42.98,Organic,Campus 6,Twice Daily,0.71
+2025-04-11 02:13:51,Campus3_BIN_2,20.85,Mixed,Campus 3,Twice Weekly,2.43
+2025-04-11 04:13:51,QC11_BIN_3,36.82,Organic,QC11,Daily,1.41
+2025-04-11 06:13:51,KP5_BIN_1,32.89,Hazardous,KP5,Daily,1.92
+2025-04-11 09:13:51,QC5_BIN_3,32.47,Recyclable,QC5,Twice Daily,1.15
+2025-04-11 13:13:51,Campus12_BIN_1,64.16,Organic,Campus 12,Twice Weekly,2.05
+2025-04-11 14:13:51,QC8_BIN_1,51.21,E-waste,QC8,Twice Weekly,1.72
+2025-04-11 15:13:51,KP7_BIN_1,47.85,Organic,KP7,Weekly,0.75
+2025-04-11 19:13:51,KP6_BIN_1,28.41,Organic,KP6,Twice Daily,0.77
+2025-04-11 20:13:51,Campus4_BIN_2,28.89,Recyclable,Campus 4,Weekly,1.52
+2025-04-11 23:13:51,Campus6_BIN_2,40.5,E-waste,Campus 6,Twice Weekly,2.13
+2025-04-12 00:13:51,CentralLibrary_BIN_2,37.06,E-waste,CentralLibrary,Daily,1.22
+2025-04-12 03:13:51,QC12_BIN_1,30.24,Organic,QC12,Twice Weekly,0.86
+2025-04-12 06:13:51,CentralLibrary_BIN_2,39.78,Organic,CentralLibrary,Twice Weekly,0.91
+2025-04-12 07:13:51,Campus1_BIN_1,38.01,Mixed,Campus 1,Twice Weekly,2.4
+2025-04-12 08:13:51,QC12_BIN_1,31.98,Organic,QC12,Daily,1.73
+2025-04-12 12:13:51,Campus6_BIN_3,46.37,Hazardous,Campus 6,Weekly,1.02
+2025-04-12 13:13:51,KP22_BIN_3,38.11,E-waste,KP22,Twice Weekly,0.55
+2025-04-12 17:13:51,QC9_BIN_4,51.5,Organic,QC9,Daily,1.01
+2025-04-12 19:13:51,Campus1_BIN_2,52.05,E-waste,Campus 1,Daily,0.67
+2025-04-12 20:13:51,Campus6_BIN_1,43.74,E-waste,Campus 6,Weekly,0.76
+2025-04-12 23:13:51,KP12_BIN_3,57.69,Organic,KP12,Twice Daily,0.56
+2025-04-13 01:13:51,QC10_BIN_1,33.88,Mixed,QC10,Daily,1.11
+2025-04-13 03:13:51,KP22_BIN_3,39.55,E-waste,KP22,Twice Weekly,0.72
+2025-04-13 04:13:51,QC12_BIN_1,32.91,Organic,QC12,Twice Daily,0.93
+2025-04-13 06:13:51,Campus12_BIN_1,67.99,E-waste,Campus 12,Daily,1.92
+2025-04-13 07:13:51,QC3_BIN_3,65.87,Hazardous,QC3,Weekly,1.89
+2025-04-13 11:13:51,QC7_BIN_3,41.43,Mixed,QC7,Weekly,0.98
+2025-04-13 14:13:51,QC9_BIN_5,41.33,Organic,QC9,Twice Weekly,0.68
+2025-04-13 15:13:51,Campus4_BIN_3,19.37,Recyclable,Campus 4,Twice Weekly,0.96
+2025-04-13 18:13:51,QC2_BIN_5,73.08,Hazardous,QC2,Weekly,1.19
+2025-04-13 20:13:51,QC6_BIN_2,37.85,Recyclable,QC6,Weekly,1.44
+2025-04-13 23:13:51,QC6_BIN_3,29.99,Recyclable,QC6,Twice Weekly,1.04
+2025-04-14 01:13:51,Campus13_BIN_1,28.32,Hazardous,Campus 13,Twice Weekly,0.66
+2025-04-14 03:13:51,Campus6_BIN_2,43.29,Mixed,Campus 6,Weekly,1.4
+2025-04-14 07:13:51,KP7_BIN_1,54.1,Recyclable,KP7,Daily,1.56
+2025-04-14 11:13:51,KP22_BIN_3,46.52,Recyclable,KP22,Twice Daily,1.74
+2025-04-14 15:13:51,KP7_BIN_2,21.78,E-waste,KP7,Twice Daily,1.26
+2025-04-14 17:13:51,QC9_BIN_2,35.77,Mixed,QC9,Twice Daily,1.55
+2025-04-14 18:13:51,QC9_BIN_1,38.09,Recyclable,QC9,Twice Daily,2.25
+2025-04-14 22:13:51,Campus4_BIN_3,22.27,Organic,Campus 4,Weekly,0.72
+2025-04-15 01:13:51,Campus13_BIN_1,31.26,Mixed,Campus 13,Weekly,0.98
+2025-04-15 05:13:51,QC12_BIN_1,41.04,Hazardous,QC12,Twice Daily,2.03
+2025-04-15 08:13:51,QC8_BIN_1,56.52,Hazardous,QC8,Daily,1.77
+2025-04-15 11:13:51,KP6_BIN_4,56.88,Mixed,KP6,Twice Weekly,1.91
+2025-04-15 12:13:51,QC11_BIN_3,38.76,Recyclable,QC11,Twice Daily,1.93
+2025-04-15 16:13:51,QC11_BIN_3,47.48,Recyclable,QC11,Twice Daily,2.18
+2025-04-15 20:13:51,QC11_BIN_3,53.84,Organic,QC11,Weekly,1.59
+2025-04-15 22:13:51,KP5_BIN_1,34.67,Organic,KP5,Twice Weekly,0.89
+2025-04-16 01:13:51,KP7_BIN_3,26.17,Mixed,KP7,Daily,2.28
+2025-04-16 02:13:51,QC5_BIN_2,28.59,E-waste,QC5,Twice Weekly,1.81
+2025-04-16 03:13:51,QC5_BIN_3,33.78,Mixed,QC5,Twice Daily,1.31
+2025-04-16 06:13:51,QC12_BIN_2,23.05,Organic,QC12,Twice Weekly,0.71
+2025-04-16 09:13:51,QC12_BIN_3,41.17,Mixed,QC12,Weekly,2.13
+2025-04-16 13:13:51,QC11_BIN_1,40.16,Mixed,QC11,Twice Weekly,1.27
+2025-04-16 16:13:51,QC6_BIN_1,28.69,Mixed,QC6,Twice Weekly,0.54
+2025-04-16 17:13:51,Campus13_BIN_3,30.56,Mixed,Campus 13,Twice Weekly,1.26
+2025-04-16 20:13:51,KP6_BIN_1,31.72,Mixed,KP6,Twice Daily,1.1
+2025-04-16 21:13:51,QC3_BIN_1,36.5,Recyclable,QC3,Daily,2.23
+2025-04-16 23:13:51,QC2_BIN_4,40.2,Hazardous,QC2,Twice Daily,1.39
+2025-04-17 00:13:51,KP12_BIN_2,46.67,Mixed,KP12,Daily,1.02
+2025-04-17 04:13:51,Campus13_BIN_5,31.55,Hazardous,Campus 13,Twice Weekly,1.13
+2025-04-17 06:13:51,QC10_BIN_4,32.71,Organic,QC10,Daily,2.14
+2025-04-17 07:13:51,QC5_BIN_2,30.31,Organic,QC5,Daily,1.72
+2025-04-17 10:13:51,KP6_BIN_1,39.09,Organic,KP6,Twice Weekly,2.46
+2025-04-17 12:13:51,QC11_BIN_3,58.05,E-waste,QC11,Twice Daily,2.1
+2025-04-17 14:13:51,QC12_BIN_1,45.56,Organic,QC12,Twice Weekly,2.26
+2025-04-17 18:13:51,QC10_BIN_1,38.24,Hazardous,QC10,Twice Weekly,1.09
+2025-04-17 22:13:51,QC8_BIN_1,61.75,Recyclable,QC8,Twice Daily,1.31
+2025-04-17 23:13:51,KP5_BIN_2,38.71,Hazardous,KP5,Daily,2.33
+2025-04-18 00:13:51,QC9_BIN_5,43.79,Hazardous,QC9,Daily,2.46
+2025-04-18 03:13:51,QC2_BIN_4,41.9,Organic,QC2,Daily,0.57
+2025-04-18 05:13:51,QC8_BIN_2,36.37,Hazardous,QC8,Weekly,1.16
+2025-04-18 06:13:51,QC9_BIN_5,45.91,Organic,QC9,Twice Weekly,2.12
+2025-04-18 09:13:51,QC9_BIN_1,45.38,Mixed,QC9,Daily,2.43
+2025-04-18 10:13:51,Campus4_BIN_1,24.07,Hazardous,Campus 4,Twice Weekly,1.31
+2025-04-18 11:13:51,KP5_BIN_2,40.53,Mixed,KP5,Twice Weekly,1.82
+2025-04-18 15:13:51,QC11_BIN_4,32.98,Organic,QC11,Daily,0.71
+2025-04-18 17:13:51,QC3_BIN_1,38.49,Hazardous,QC3,Twice Daily,1.0
+2025-04-18 21:13:51,CentralLibrary_BIN_2,44.59,Hazardous,CentralLibrary,Weekly,1.2
+2025-04-19 00:13:51,QC6_BIN_3,32.53,Mixed,QC6,Weekly,0.84
+2025-04-19 01:13:51,QC9_BIN_5,48.25,Mixed,QC9,Weekly,2.33
+2025-04-19 03:13:51,QC3_BIN_2,73.02,Hazardous,QC3,Twice Weekly,0.54
+2025-04-19 05:13:51,Campus6_BIN_2,46.4,Mixed,Campus 6,Twice Weekly,1.55
+2025-04-19 09:13:51,KP22_BIN_2,39.86,Mixed,KP22,Daily,0.97
+2025-04-19 12:13:51,Campus13_BIN_4,50.13,E-waste,Campus 13,Daily,1.75
+2025-04-19 16:13:51,KP22_BIN_3,53.56,Recyclable,KP22,Twice Daily,1.76
+2025-04-19 17:13:51,KP5_BIN_2,42.05,Mixed,KP5,Twice Weekly,1.53
+2025-04-19 21:13:51,QC11_BIN_1,45.39,Organic,QC11,Twice Daily,1.31
+2025-04-19 23:13:51,QC10_BIN_3,26.83,Organic,QC10,Daily,2.02
+2025-04-20 00:13:51,QC2_BIN_3,39.01,Hazardous,QC2,Twice Daily,1.64
+2025-04-20 04:13:51,QC2_BIN_2,60.21,E-waste,QC2,Daily,2.32
+2025-04-20 05:13:51,KP5_BIN_1,35.49,Mixed,KP5,Twice Weekly,0.81
+2025-04-20 08:13:51,Campus4_BIN_2,33.47,Organic,Campus 4,Twice Weekly,1.53
+2025-04-20 10:13:51,QC9_BIN_3,29.59,Mixed,QC9,Weekly,1.93
+2025-04-20 12:13:51,CentralLibrary_BIN_2,46.61,E-waste,CentralLibrary,Twice Daily,1.01
+2025-04-20 14:13:51,Campus4_BIN_2,38.12,Organic,Campus 4,Daily,2.33
+2025-04-20 17:13:51,QC3_BIN_1,44.78,E-waste,QC3,Weekly,2.1
+2025-04-20 18:13:51,KP6_BIN_1,41.36,Hazardous,KP6,Twice Weekly,2.28
+2025-04-20 21:13:51,Campus1_BIN_1,43.19,E-waste,Campus 1,Twice Daily,1.73
+2025-04-21 01:13:51,QC10_BIN_1,41.37,E-waste,QC10,Twice Daily,0.78
+2025-04-21 05:13:51,QC10_BIN_4,36.97,Hazardous,QC10,Twice Daily,1.06
+2025-04-21 06:13:51,QC5_BIN_4,7.1,Organic,QC5,Weekly,1.76
+2025-04-21 07:13:51,Campus13_BIN_4,52.12,Organic,Campus 13,Weekly,1.98
+2025-04-21 10:13:51,CentralLibrary_BIN_1,34.06,E-waste,CentralLibrary,Twice Daily,2.3
+2025-04-21 14:13:51,QC12_BIN_4,41.29,E-waste,QC12,Twice Weekly,1.14
+2025-04-21 16:13:51,QC9_BIN_4,55.32,Hazardous,QC9,Twice Daily,1.91
+2025-04-21 20:13:51,KP6_BIN_3,40.87,Hazardous,KP6,Weekly,0.63
+2025-04-21 23:13:51,QC6_BIN_3,34.99,Recyclable,QC6,Weekly,0.82
+2025-04-22 00:13:51,Campus6_BIN_1,46.2,Mixed,Campus 6,Twice Weekly,2.46
+2025-04-22 04:13:51,Campus13_BIN_1,35.51,Hazardous,Campus 13,Twice Daily,1.06
+2025-04-22 07:13:51,Campus12_BIN_2,51.78,Organic,Campus 12,Weekly,0.98
+2025-04-22 11:13:51,KP6_BIN_1,45.77,Recyclable,KP6,Weekly,1.1
+2025-04-22 12:13:51,KP7_BIN_2,22.76,Mixed,KP7,Daily,0.97
+2025-04-22 14:13:51,QC5_BIN_3,34.96,Recyclable,QC5,Twice Weekly,0.59
+2025-04-22 16:13:51,QC9_BIN_2,39.99,Recyclable,QC9,Twice Weekly,2.11
+2025-04-22 20:13:51,QC2_BIN_5,76.92,Mixed,QC2,Twice Weekly,0.96
+2025-04-22 22:13:51,KP22_BIN_1,38.93,Organic,KP22,Twice Weekly,0.67
+2025-04-23 01:13:51,QC12_BIN_3,48.6,Hazardous,QC12,Weekly,2.48
+2025-04-23 03:13:51,KP22_BIN_3,55.69,Recyclable,KP22,Weekly,1.07
+2025-04-23 04:13:51,QC12_BIN_2,25.23,Organic,QC12,Twice Weekly,2.18
+2025-04-23 08:13:51,KP12_BIN_3,63.96,Organic,KP12,Twice Daily,1.57
+2025-04-23 10:13:51,QC5_BIN_1,35.69,Organic,QC5,Twice Daily,2.41
+2025-04-23 14:13:51,QC1_BIN_1,38.52,Hazardous,QC1,Daily,1.65
+2025-04-23 18:13:51,Campus6_BIN_2,52.4,Organic,Campus 6,Twice Weekly,1.5
+2025-04-23 20:13:51,QC5_BIN_4,11.13,Recyclable,QC5,Twice Daily,2.01
+2025-04-23 23:13:51,Campus13_BIN_5,35.55,Organic,Campus 13,Twice Weekly,1.33
+2025-04-24 01:13:51,QC7_BIN_1,49.06,Recyclable,QC7,Daily,1.12
+2025-04-24 05:13:51,QC1_BIN_2,15.46,E-waste,QC1,Twice Weekly,2.43
+2025-04-24 09:13:51,QC2_BIN_1,50.48,E-waste,QC2,Daily,2.44
+2025-04-24 10:13:51,QC5_BIN_1,38.1,Recyclable,QC5,Twice Daily,2.41
+2025-04-24 14:13:51,QC1_BIN_2,18.97,Recyclable,QC1,Daily,0.88
+2025-04-24 15:13:51,QC12_BIN_3,50.89,Organic,QC12,Daily,2.29
+2025-04-24 17:13:51,QC2_BIN_3,42.16,Organic,QC2,Twice Weekly,1.57
+2025-04-24 21:13:51,QC12_BIN_3,53.41,Mixed,QC12,Twice Daily,0.63
+2025-04-24 23:13:51,QC9_BIN_3,34.18,Organic,QC9,Daily,2.29
+2025-04-25 01:13:51,QC2_BIN_5,79.72,E-waste,QC2,Weekly,1.4
+2025-04-25 05:13:51,KP22_BIN_3,59.88,Hazardous,KP22,Daily,1.05
+2025-04-25 06:13:51,QC8_BIN_1,63.72,Mixed,QC8,Twice Weekly,1.97
+2025-04-25 07:13:51,KP5_BIN_2,42.73,Hazardous,KP5,Twice Weekly,0.67
+2025-04-25 09:13:51,KP7_BIN_3,29.11,Recyclable,KP7,Twice Weekly,1.47
+2025-04-25 10:13:51,KP5_BIN_2,43.38,Mixed,KP5,Daily,0.65
+2025-04-25 13:13:51,KP5_BIN_2,47.2,Organic,KP5,Twice Weekly,1.27
+2025-04-25 17:13:51,QC11_BIN_4,42.79,Mixed,QC11,Twice Weekly,2.45
+2025-04-25 19:13:51,Campus12_BIN_1,69.02,Mixed,Campus 12,Twice Daily,0.51
+2025-04-25 22:13:51,Campus13_BIN_3,37.28,Mixed,Campus 13,Weekly,2.24
+2025-04-25 23:13:51,KP7_BIN_2,25.04,Hazardous,KP7,Weekly,2.28
+2025-04-26 02:13:51,KP1_BIN_1,40.57,Hazardous,KP1,Twice Weekly,2.41
+2025-04-26 03:13:51,Campus13_BIN_5,37.04,Mixed,Campus 13,Daily,1.49
+2025-04-26 04:13:51,QC9_BIN_5,49.12,E-waste,QC9,Twice Daily,0.87
+2025-04-26 05:13:51,QC10_BIN_2,33.88,Organic,QC10,Daily,1.95
+2025-04-26 06:13:51,QC10_BIN_1,43.05,Organic,QC10,Weekly,1.68
+2025-04-26 08:13:51,QC2_BIN_3,46.43,Recyclable,QC2,Twice Daily,2.13
+2025-04-26 12:13:51,KP7_BIN_3,33.69,Mixed,KP7,Weekly,1.14
+2025-04-26 14:13:51,QC9_BIN_4,56.94,Mixed,QC9,Twice Daily,0.81
+2025-04-26 18:13:51,KP1_BIN_1,43.55,Hazardous,KP1,Twice Weekly,0.75
+2025-04-26 20:13:51,Campus12_BIN_2,54.19,E-waste,Campus 12,Twice Daily,1.2
+2025-04-26 22:13:51,QC1_BIN_2,22.15,Hazardous,QC1,Daily,1.59
+2025-04-26 23:13:51,QC8_BIN_1,65.51,Recyclable,QC8,Twice Daily,1.79
+2025-04-27 03:13:51,KP22_BIN_3,62.72,Hazardous,KP22,Daily,0.71
+2025-04-27 07:13:51,QC2_BIN_4,46.03,Mixed,QC2,Twice Daily,1.03
+2025-04-27 08:13:51,KP22_BIN_1,40.33,Mixed,KP22,Twice Weekly,1.39
+2025-04-27 09:13:51,KP6_BIN_1,46.99,Hazardous,KP6,Daily,1.22
+2025-04-27 10:13:51,KP5_BIN_2,49.2,Recyclable,KP5,Weekly,2.0
+2025-04-27 13:13:51,QC1_BIN_1,40.79,Hazardous,QC1,Twice Daily,0.75
+2025-04-27 14:13:51,Campus6_BIN_1,48.32,Organic,Campus 6,Twice Weekly,2.12
+2025-04-27 15:13:51,Campus12_BIN_2,55.1,Hazardous,Campus 12,Daily,0.91
+2025-04-27 18:13:51,CentralLibrary_BIN_1,39.71,E-waste,CentralLibrary,Twice Weekly,1.88
+2025-04-27 21:13:51,QC8_BIN_1,68.45,Hazardous,QC8,Twice Weekly,0.98
+2025-04-27 22:13:51,QC1_BIN_1,43.2,Mixed,QC1,Twice Weekly,2.41
+2025-04-28 00:13:51,QC10_BIN_1,47.0,Hazardous,QC10,Twice Daily,1.98
+2025-04-28 04:13:51,QC12_BIN_3,59.44,Recyclable,QC12,Weekly,1.51
+2025-04-28 07:13:51,QC9_BIN_5,52.53,Hazardous,QC9,Twice Weekly,1.14
+2025-04-28 11:13:51,QC12_BIN_4,49.12,Recyclable,QC12,Daily,1.96
+2025-04-28 13:13:51,KP6_BIN_3,44.91,Hazardous,KP6,Daily,2.02
+2025-04-28 17:13:51,QC2_BIN_1,53.2,E-waste,QC2,Twice Weekly,0.68
+2025-04-28 20:13:51,KP6_BIN_2,48.82,Organic,KP6,Twice Daily,0.99
+2025-04-28 23:13:51,QC3_BIN_1,48.93,Recyclable,QC3,Twice Daily,1.38
+2025-04-29 00:13:51,QC6_BIN_3,36.4,Organic,QC6,Weekly,1.41
+2025-04-29 01:13:51,Campus13_BIN_2,14.79,Mixed,Campus 13,Twice Weekly,2.2
+2025-04-29 04:13:51,KP6_BIN_2,54.46,Organic,KP6,Twice Daily,1.88
+2025-04-29 05:13:51,QC3_BIN_2,73.77,Recyclable,QC3,Twice Weekly,0.75
+2025-04-29 09:13:51,QC1_BIN_2,27.05,Mixed,QC1,Daily,1.23
+2025-04-29 12:13:51,QC6_BIN_1,35.76,E-waste,QC6,Twice Daily,2.36
+2025-04-29 14:13:51,Campus13_BIN_3,39.52,Hazardous,Campus 13,Twice Weekly,1.12
+2025-04-29 15:13:51,KP6_BIN_3,46.03,Organic,KP6,Twice Daily,1.11
+2025-04-29 17:13:51,QC6_BIN_2,41.08,Hazardous,QC6,Daily,1.61
+2025-04-29 21:13:51,QC7_BIN_1,52.82,Recyclable,QC7,Daily,0.94
+2025-04-29 22:13:51,QC7_BIN_1,54.36,Hazardous,QC7,Daily,1.54
+2025-04-29 23:13:51,QC8_BIN_1,69.42,Hazardous,QC8,Twice Weekly,0.97
+2025-04-30 03:13:51,QC5_BIN_1,47.53,Mixed,QC5,Daily,2.36
+2025-04-30 07:13:51,QC6_BIN_1,42.54,E-waste,QC6,Twice Daily,1.7
+2025-04-30 11:13:51,Campus13_BIN_5,45.31,Hazardous,Campus 13,Weekly,2.07
+2025-04-30 12:13:51,Campus6_BIN_2,53.34,E-waste,Campus 6,Twice Daily,0.94
+2025-04-30 14:13:51,QC11_BIN_3,60.97,Recyclable,QC11,Twice Daily,1.46
+2025-04-30 18:13:51,Campus6_BIN_1,52.49,Organic,Campus 6,Twice Daily,1.04
+2025-04-30 22:13:51,QC2_BIN_4,49.21,Hazardous,QC2,Twice Weekly,0.79
+2025-05-01 02:13:51,QC10_BIN_5,23.08,Organic,QC10,Twice Daily,2.07
+2025-05-01 05:13:51,KP22_BIN_3,65.69,Mixed,KP22,Twice Weekly,0.99
+2025-05-01 08:13:51,KP7_BIN_1,59.77,Organic,KP7,Weekly,1.89
+2025-05-01 10:13:51,KP12_BIN_2,51.11,Recyclable,KP12,Weekly,2.22
+2025-05-01 12:13:51,KP5_BIN_2,53.67,E-waste,KP5,Weekly,2.24
+2025-05-01 15:13:51,QC12_BIN_4,51.39,Mixed,QC12,Weekly,0.76
+2025-05-01 16:13:51,Campus13_BIN_1,37.97,Recyclable,Campus 13,Daily,2.46
+2025-05-01 20:13:51,Campus1_BIN_1,47.53,E-waste,Campus 1,Twice Weekly,1.08
+2025-05-02 00:13:51,Campus12_BIN_1,76.03,Recyclable,Campus 12,Daily,1.75
+2025-05-02 03:13:51,QC10_BIN_5,24.62,Hazardous,QC10,Twice Weekly,0.51
+2025-05-02 04:13:51,KP12_BIN_2,51.86,Hazardous,KP12,Twice Weekly,0.75
+2025-05-02 05:13:51,Campus4_BIN_1,26.08,E-waste,Campus 4,Twice Daily,2.0
+2025-05-02 09:13:51,KP7_BIN_1,62.56,Recyclable,KP7,Weekly,0.7
+2025-05-02 11:13:51,QC8_BIN_2,39.51,Hazardous,QC8,Weekly,1.57
+2025-05-02 15:13:51,KP22_BIN_2,47.15,Mixed,KP22,Twice Daily,1.82
+2025-05-02 19:13:51,Campus6_BIN_1,62.33,Mixed,Campus 6,Weekly,2.46
+2025-05-02 23:13:51,KP7_BIN_2,33.16,Organic,KP7,Weekly,2.03
+2025-05-03 00:13:51,QC6_BIN_1,44.72,E-waste,QC6,Twice Weekly,2.18
+2025-05-03 01:13:51,KP1_BIN_4,10.81,E-waste,KP1,Twice Daily,0.91
+2025-05-03 03:13:51,Campus13_BIN_4,56.27,Recyclable,Campus 13,Daily,2.08
+2025-05-03 07:13:51,QC6_BIN_1,53.55,Recyclable,QC6,Twice Weekly,2.21
+2025-05-03 11:13:51,QC10_BIN_4,45.95,Hazardous,QC10,Weekly,2.24
+2025-05-03 14:13:51,Campus12_BIN_1,78.99,Organic,Campus 12,Daily,0.99
+2025-05-03 17:13:51,KP12_BIN_2,53.5,E-waste,KP12,Daily,0.55
+2025-05-03 20:13:51,Campus13_BIN_5,51.17,Organic,Campus 13,Twice Weekly,1.95
+2025-05-03 23:13:51,QC12_BIN_4,57.04,Mixed,QC12,Daily,1.88
+2025-05-04 02:13:51,Campus12_BIN_1,86.44,Organic,Campus 12,Daily,2.48
+2025-05-04 04:13:51,QC5_BIN_4,16.06,Organic,QC5,Twice Daily,2.47
+2025-05-04 07:13:51,KP22_BIN_2,50.6,Mixed,KP22,Weekly,1.15
+2025-05-04 11:13:51,Campus13_BIN_2,21.05,Recyclable,Campus 13,Daily,1.56
+2025-05-04 12:13:51,KP1_BIN_1,45.57,Mixed,KP1,Daily,2.02
+2025-05-04 15:13:51,Campus6_BIN_1,63.84,Organic,Campus 6,Weekly,0.5
+2025-05-04 18:13:51,QC5_BIN_2,35.51,Mixed,QC5,Daily,1.73
+2025-05-04 21:13:51,QC12_BIN_4,62.55,Organic,QC12,Weekly,1.84
+2025-05-04 22:13:51,QC11_BIN_1,46.95,Mixed,QC11,Twice Weekly,1.56
+2025-05-05 02:13:51,KP12_BIN_2,61.3,Hazardous,KP12,Weekly,1.95
+2025-05-05 06:13:51,Campus13_BIN_1,42.23,Organic,Campus 13,Weekly,1.06
+2025-05-05 07:13:51,QC2_BIN_5,10.81,Hazardous,QC2,Twice Weekly,2.01
+2025-05-05 10:13:51,QC10_BIN_5,27.55,Mixed,QC10,Twice Daily,0.98
+2025-05-05 11:13:51,Campus4_BIN_2,40.38,Hazardous,Campus 4,Twice Weekly,2.26
+2025-05-05 15:13:51,QC10_BIN_4,55.34,E-waste,QC10,Twice Weekly,2.35
+2025-05-05 17:13:51,QC2_BIN_4,53.9,Mixed,QC2,Weekly,2.34
+2025-05-05 18:13:51,Campus13_BIN_5,51.95,Recyclable,Campus 13,Twice Daily,0.78
+2025-05-05 20:13:51,QC9_BIN_1,48.92,Recyclable,QC9,Weekly,1.77
+2025-05-05 21:13:51,KP1_BIN_4,12.91,Hazardous,KP1,Twice Weekly,2.1
+2025-05-05 22:13:51,QC1_BIN_1,44.76,Mixed,QC1,Daily,1.56
+2025-05-05 23:13:51,QC5_BIN_4,16.95,Hazardous,QC5,Weekly,0.89
+2025-05-06 02:13:51,Campus4_BIN_3,28.03,Hazardous,Campus 4,Weekly,1.92
+2025-05-06 05:13:51,QC5_BIN_4,18.65,Recyclable,QC5,Twice Daily,0.56
+2025-05-06 07:13:51,QC6_BIN_2,45.08,Hazardous,QC6,Weekly,2.0
+2025-05-06 09:13:51,Campus12_BIN_1,90.42,Organic,Campus 12,Daily,1.99
+2025-05-06 10:13:51,KP7_BIN_1,64.0,Hazardous,KP7,Weekly,1.43
+2025-05-06 13:13:51,Campus4_BIN_2,45.68,Organic,Campus 4,Weekly,1.77
+2025-05-06 17:13:51,KP22_BIN_2,53.41,Hazardous,KP22,Twice Weekly,0.7
+2025-05-06 19:13:51,QC4_BIN_2,35.21,Mixed,QC4,Twice Daily,2.34
+2025-05-06 20:13:51,QC2_BIN_2,61.7,Mixed,QC2,Twice Daily,1.49
+2025-05-07 00:13:51,QC12_BIN_3,67.09,Organic,QC12,Weekly,1.91
+2025-05-07 01:13:51,QC6_BIN_1,54.12,E-waste,QC6,Daily,0.56
+2025-05-07 03:13:51,QC11_BIN_3,65.8,Recyclable,QC11,Twice Weekly,2.42
+2025-05-07 04:13:51,QC12_BIN_2,26.5,Hazardous,QC12,Twice Weekly,1.26
+2025-05-07 06:13:51,QC4_BIN_2,38.34,Mixed,QC4,Daily,1.56
+2025-05-07 07:13:51,KP12_BIN_1,39.94,Organic,KP12,Twice Weekly,1.97
+2025-05-07 08:13:51,KP22_BIN_3,67.21,E-waste,KP22,Twice Weekly,1.52
+2025-05-07 10:13:51,QC5_BIN_1,48.91,Recyclable,QC5,Daily,0.69
+2025-05-07 12:13:51,QC9_BIN_4,59.97,Recyclable,QC9,Daily,1.52
+2025-05-07 16:13:51,QC5_BIN_4,20.91,E-waste,QC5,Daily,0.56
+2025-05-07 20:13:51,KP12_BIN_3,66.39,Hazardous,KP12,Twice Daily,0.61
+2025-05-07 23:13:51,QC9_BIN_2,43.41,Hazardous,QC9,Daily,1.14
+2025-05-08 01:13:51,QC8_BIN_2,44.42,Hazardous,QC8,Twice Weekly,2.45
+2025-05-08 04:13:51,QC9_BIN_4,65.25,Organic,QC9,Weekly,1.76
+2025-05-08 06:13:51,QC2_BIN_1,56.11,E-waste,QC2,Weekly,1.46
+2025-05-08 10:13:51,QC1_BIN_2,32.95,Recyclable,QC1,Weekly,1.48
+2025-05-08 14:13:51,QC1_BIN_1,50.53,E-waste,QC1,Twice Weekly,1.44
+2025-05-08 17:13:51,KP22_BIN_3,69.66,Hazardous,KP22,Twice Daily,0.82
+2025-05-08 21:13:51,Campus3_BIN_2,30.23,E-waste,Campus 3,Twice Daily,2.34
+2025-05-09 01:13:51,Campus13_BIN_5,55.55,Organic,Campus 13,Twice Daily,0.9
+2025-05-09 02:13:51,Campus13_BIN_1,44.03,Hazardous,Campus 13,Daily,1.8
+2025-05-09 05:13:51,QC6_BIN_2,47.27,Recyclable,QC6,Daily,0.73
+2025-05-09 09:13:51,KP6_BIN_2,59.6,Hazardous,KP6,Weekly,1.29
+2025-05-09 12:13:51,Campus6_BIN_2,55.91,E-waste,Campus 6,Twice Daily,0.86
+2025-05-09 16:13:51,QC12_BIN_1,49.87,E-waste,QC12,Twice Daily,1.08
+2025-05-09 18:13:51,KP22_BIN_1,44.15,E-waste,KP22,Twice Weekly,1.91
+2025-05-09 22:13:51,QC4_BIN_2,47.69,Hazardous,QC4,Twice Weekly,2.34
+2025-05-10 00:13:51,QC5_BIN_4,23.91,Hazardous,QC5,Weekly,1.5
+2025-05-10 01:13:51,QC5_BIN_2,37.85,Mixed,QC5,Daily,2.34
+2025-05-10 02:13:51,QC12_BIN_4,63.73,E-waste,QC12,Twice Weekly,1.18
+2025-05-10 03:13:51,Campus6_BIN_3,46.91,Organic,Campus 6,Weekly,0.54
+2025-05-10 04:13:51,QC5_BIN_4,24.8,Mixed,QC5,Weekly,0.9
+2025-05-10 05:13:51,QC12_BIN_2,27.13,Hazardous,QC12,Weekly,0.63
+2025-05-10 06:13:51,Campus6_BIN_1,64.59,Organic,Campus 6,Weekly,0.75
+2025-05-10 10:13:51,KP6_BIN_3,55.83,Hazardous,KP6,Twice Weekly,2.45
+2025-05-10 12:13:51,QC1_BIN_1,53.01,E-waste,QC1,Daily,1.24
+2025-05-10 13:13:51,QC10_BIN_2,35.34,Hazardous,QC10,Twice Daily,1.46
+2025-05-10 17:13:51,KP7_BIN_2,35.4,Recyclable,KP7,Daily,0.56
+2025-05-10 21:13:51,QC2_BIN_2,64.22,Organic,QC2,Daily,0.63
+2025-05-10 22:13:51,KP6_BIN_4,59.07,Hazardous,KP6,Twice Weekly,2.18
+2025-05-11 00:13:51,Campus13_BIN_2,22.9,E-waste,Campus 13,Twice Weekly,0.93
+2025-05-11 04:13:51,QC7_BIN_3,46.61,Hazardous,QC7,Daily,1.29
+2025-05-11 05:13:51,Campus13_BIN_4,58.48,Mixed,Campus 13,Daily,2.21
+2025-05-11 09:13:51,KP6_BIN_3,60.69,Recyclable,KP6,Twice Weekly,1.21
+2025-05-11 11:13:51,QC10_BIN_4,57.14,E-waste,QC10,Weekly,0.9
+2025-05-11 15:13:51,QC1_BIN_1,62.77,Organic,QC1,Daily,2.44
+2025-05-11 16:13:51,QC10_BIN_1,48.43,Mixed,QC10,Weekly,1.43
+2025-05-11 19:13:51,Campus3_BIN_2,33.68,E-waste,Campus 3,Twice Weekly,1.15
+2025-05-11 20:13:51,KP6_BIN_4,60.9,Recyclable,KP6,Twice Weekly,1.83
+2025-05-11 23:13:51,Campus12_BIN_2,57.7,Mixed,Campus 12,Weekly,0.87
+2025-05-12 00:13:51,QC10_BIN_5,29.32,Mixed,QC10,Twice Daily,1.77
+2025-05-12 01:13:51,KP5_BIN_1,36.59,Mixed,KP5,Weekly,1.11
+2025-05-12 02:13:51,QC10_BIN_4,59.22,Recyclable,QC10,Daily,2.09
+2025-05-12 04:13:51,KP12_BIN_1,44.11,Recyclable,KP12,Twice Weekly,2.08
+2025-05-12 08:13:51,KP22_BIN_3,71.9,Recyclable,KP22,Twice Weekly,0.56
+2025-05-12 09:13:51,QC7_BIN_1,55.61,Organic,QC7,Daily,1.25
+2025-05-12 10:13:51,Campus13_BIN_2,25.09,E-waste,Campus 13,Twice Daily,2.19
+2025-05-12 13:13:51,QC7_BIN_2,24.85,Mixed,QC7,Weekly,2.45
+2025-05-12 15:13:51,QC4_BIN_2,51.5,E-waste,QC4,Twice Daily,1.91
+2025-05-12 16:13:51,CentralLibrary_BIN_2,48.31,Hazardous,CentralLibrary,Weekly,1.7
+2025-05-12 20:13:51,Campus1_BIN_1,52.72,Organic,Campus 1,Twice Daily,1.3
+2025-05-12 22:13:51,QC9_BIN_4,69.11,Hazardous,QC9,Twice Weekly,1.93
+2025-05-13 02:13:51,QC5_BIN_3,39.39,E-waste,QC5,Weekly,1.11
+2025-05-13 03:13:51,QC4_BIN_2,52.45,Hazardous,QC4,Daily,0.94
+2025-05-13 04:13:51,QC5_BIN_2,39.33,E-waste,QC5,Twice Weekly,1.49
+2025-05-13 05:13:51,KP7_BIN_1,64.95,E-waste,KP7,Twice Weekly,0.96
+2025-05-13 06:13:51,QC7_BIN_4,22.57,Hazardous,QC7,Twice Weekly,1.43
+2025-05-13 09:13:51,QC11_BIN_1,49.28,E-waste,QC11,Twice Weekly,0.78
+2025-05-13 10:13:51,KP12_BIN_1,44.97,Hazardous,KP12,Daily,0.85
+2025-05-13 13:13:51,KP6_BIN_2,65.32,Hazardous,KP6,Daily,1.91
+2025-05-13 14:13:51,QC3_BIN_1,50.23,Organic,QC3,Daily,1.3
+2025-05-13 16:13:51,KP1_BIN_3,51.01,Mixed,KP1,Weekly,2.47
+2025-05-13 19:13:51,KP5_BIN_2,56.51,Mixed,KP5,Twice Weekly,0.94
+2025-05-13 22:13:51,QC12_BIN_1,53.08,E-waste,QC12,Twice Weekly,1.07
+2025-05-14 00:13:51,KP6_BIN_3,62.66,E-waste,KP6,Daily,0.99
+2025-05-14 02:13:51,QC9_BIN_2,48.03,Recyclable,QC9,Twice Daily,2.31
+2025-05-14 06:13:51,QC8_BIN_1,77.08,Organic,QC8,Twice Weekly,1.91
+2025-05-14 10:13:51,KP22_BIN_1,49.05,Mixed,KP22,Twice Weekly,1.23
+2025-05-14 13:13:51,QC6_BIN_2,53.7,Mixed,QC6,Twice Daily,2.14
+2025-05-14 14:13:51,Campus13_BIN_5,56.13,Mixed,Campus 13,Daily,0.58
+2025-05-14 16:13:51,QC12_BIN_4,66.66,Mixed,QC12,Twice Weekly,1.47
+2025-05-14 18:13:51,Campus4_BIN_3,31.68,Hazardous,Campus 4,Daily,1.82
+2025-05-14 19:13:51,Campus13_BIN_4,59.75,Recyclable,Campus 13,Twice Daily,1.27
+2025-05-14 20:13:51,QC7_BIN_1,57.32,Organic,QC7,Daily,1.71
+2025-05-14 21:13:51,QC2_BIN_5,12.88,E-waste,QC2,Daily,2.07
+2025-05-14 23:13:51,KP6_BIN_4,63.08,E-waste,KP6,Weekly,1.09
+2025-05-15 01:13:51,QC8_BIN_1,6.5,Recyclable,QC8,Daily,1.48
+2025-05-15 02:13:51,KP6_BIN_4,64.37,Hazardous,KP6,Twice Weekly,1.29
+2025-05-15 03:13:51,KP22_BIN_2,54.54,Mixed,KP22,Weekly,1.13
+2025-05-15 06:13:51,CentralLibrary_BIN_2,53.18,E-waste,CentralLibrary,Daily,1.62
+2025-05-15 09:13:51,KP6_BIN_2,72.6,Mixed,KP6,Twice Weekly,2.43
+2025-05-15 10:13:51,Campus3_BIN_1,67.89,Mixed,Campus 3,Twice Daily,1.96
+2025-05-15 11:13:51,QC10_BIN_2,37.02,Mixed,QC10,Twice Daily,1.68
+2025-05-15 12:13:51,Campus6_BIN_3,47.64,Organic,Campus 6,Twice Daily,0.73
+2025-05-15 14:13:51,QC12_BIN_3,68.75,Hazardous,QC12,Twice Daily,0.83
+2025-05-15 16:13:51,QC12_BIN_3,71.81,Organic,QC12,Weekly,1.53
+2025-05-15 20:13:51,QC9_BIN_4,75.31,Organic,QC9,Daily,1.55
+2025-05-15 23:13:51,Campus13_BIN_3,46.39,Mixed,Campus 13,Twice Weekly,2.29
+2025-05-16 00:13:51,KP22_BIN_1,51.53,Hazardous,KP22,Weekly,2.48
+2025-05-16 01:13:51,Campus4_BIN_3,33.75,Hazardous,Campus 4,Weekly,2.07
+2025-05-16 02:13:51,KP22_BIN_2,56.89,Recyclable,KP22,Twice Daily,2.35
+2025-05-16 03:13:51,Campus13_BIN_3,48.71,Recyclable,Campus 13,Daily,2.32
+2025-05-16 04:13:51,QC11_BIN_3,66.67,Hazardous,QC11,Twice Daily,0.87
+2025-05-16 08:13:51,KP1_BIN_1,51.98,E-waste,KP1,Twice Weekly,1.6
+2025-05-16 11:13:51,QC10_BIN_3,29.45,Mixed,QC10,Twice Daily,0.88
+2025-05-16 12:13:51,Campus12_BIN_2,59.59,E-waste,Campus 12,Twice Weekly,1.89
+2025-05-16 14:13:51,KP1_BIN_5,57.48,E-waste,KP1,Twice Daily,1.1
+2025-05-16 15:13:51,Campus13_BIN_1,45.37,Recyclable,Campus 13,Weekly,1.34
+2025-05-16 19:13:51,KP22_BIN_3,12.01,Recyclable,KP22,Weekly,2.06
+2025-05-16 21:13:51,KP1_BIN_1,53.82,Hazardous,KP1,Daily,0.92
+2025-05-16 22:13:51,QC10_BIN_3,29.96,Hazardous,QC10,Twice Weekly,0.51
+2025-05-17 00:13:51,QC11_BIN_1,52.85,Mixed,QC11,Twice Weekly,1.79
+2025-05-17 04:13:51,QC1_BIN_2,39.93,Recyclable,QC1,Twice Daily,1.74
+2025-05-17 05:13:51,QC11_BIN_3,67.96,Mixed,QC11,Twice Daily,1.29
+2025-05-17 09:13:51,Campus1_BIN_2,55.92,Recyclable,Campus 1,Twice Weekly,0.97
+2025-05-17 12:13:51,KP1_BIN_1,56.17,E-waste,KP1,Twice Daily,0.79
+2025-05-17 15:13:51,KP5_BIN_2,63.77,Hazardous,KP5,Twice Daily,2.42
+2025-05-17 17:13:51,Campus12_BIN_1,94.31,E-waste,Campus 12,Weekly,1.95
+2025-05-17 21:13:51,QC10_BIN_2,39.48,Hazardous,QC10,Daily,0.62
+2025-05-17 22:13:51,Campus13_BIN_4,61.44,Recyclable,Campus 13,Twice Daily,1.69
+2025-05-17 23:13:51,Campus13_BIN_4,63.85,E-waste,Campus 13,Twice Weekly,2.41
+2025-05-18 01:13:51,KP1_BIN_5,58.78,Recyclable,KP1,Daily,0.65
+2025-05-18 05:13:51,QC1_BIN_1,67.67,Organic,QC1,Twice Weekly,1.23
+2025-05-18 06:13:51,QC2_BIN_3,47.33,E-waste,QC2,Weekly,0.9
+2025-05-18 07:13:51,Campus4_BIN_3,35.3,Organic,Campus 4,Daily,1.56
+2025-05-18 09:13:51,QC4_BIN_1,50.57,Hazardous,QC4,Daily,1.16
+2025-05-18 10:13:51,QC7_BIN_4,23.34,Recyclable,QC7,Twice Weekly,0.77
+2025-05-18 13:13:51,Campus13_BIN_4,66.77,Recyclable,Campus 13,Weekly,0.98
+2025-05-18 14:13:51,KP22_BIN_2,58.96,Mixed,KP22,Daily,2.07
+2025-05-18 17:13:51,Campus6_BIN_3,52.48,Mixed,Campus 6,Weekly,1.61
+2025-05-18 21:13:51,Campus12_BIN_2,65.19,Hazardous,Campus 12,Daily,1.4
+2025-05-19 01:13:51,QC3_BIN_3,68.77,Recyclable,QC3,Twice Weekly,0.72
+2025-05-19 04:13:51,QC1_BIN_1,70.62,Recyclable,QC1,Twice Weekly,0.98
+2025-05-19 07:13:51,QC3_BIN_2,77.5,Hazardous,QC3,Weekly,1.24
+2025-05-19 10:13:51,QC10_BIN_5,31.36,E-waste,QC10,Daily,0.68
+2025-05-19 12:13:51,QC12_BIN_5,42.39,Organic,QC12,Twice Weekly,0.71
+2025-05-19 13:13:51,QC12_BIN_2,28.27,Mixed,QC12,Twice Weekly,1.15
+2025-05-19 17:13:51,QC2_BIN_1,61.69,Mixed,QC2,Twice Daily,1.39
+2025-05-19 18:13:51,KP22_BIN_1,52.13,E-waste,KP22,Daily,0.6
+2025-05-19 19:13:51,QC3_BIN_1,50.88,Recyclable,QC3,Weekly,0.64
+2025-05-19 23:13:51,KP1_BIN_2,55.63,Mixed,KP1,Twice Weekly,2.02
+2025-05-20 00:13:51,QC7_BIN_4,25.04,Recyclable,QC7,Twice Daily,1.7
+2025-05-20 01:13:51,QC2_BIN_2,66.58,E-waste,QC2,Weekly,2.36
+2025-05-20 02:13:51,Campus3_BIN_2,34.79,Mixed,Campus 3,Daily,1.11
+2025-05-20 05:13:51,QC8_BIN_2,47.18,Organic,QC8,Twice Daily,0.92
+2025-05-20 08:13:51,KP1_BIN_1,58.74,Recyclable,KP1,Weekly,0.86
+2025-05-20 10:13:51,KP22_BIN_3,13.73,Hazardous,KP22,Weekly,0.86
+2025-05-20 14:13:51,KP7_BIN_2,44.68,Hazardous,KP7,Daily,2.32
+2025-05-20 17:13:51,QC7_BIN_4,30.37,Organic,QC7,Twice Weekly,1.78
+2025-05-20 19:13:51,KP12_BIN_3,68.3,Mixed,KP12,Weekly,0.95
+2025-05-20 23:13:51,KP6_BIN_4,68.62,Mixed,KP6,Daily,1.06
+2025-05-21 01:13:51,CentralLibrary_BIN_1,41.21,Mixed,CentralLibrary,Weekly,0.75
+2025-05-21 05:13:51,QC7_BIN_2,30.34,Organic,QC7,Daily,1.37
+2025-05-21 07:13:51,Campus12_BIN_1,17.83,E-waste,Campus 12,Weekly,1.21
+2025-05-21 11:13:51,KP6_BIN_2,79.46,Recyclable,KP6,Daily,1.71
+2025-05-21 15:13:51,KP6_BIN_2,14.44,Organic,KP6,Daily,1.92
+2025-05-21 18:13:51,KP7_BIN_1,69.65,Recyclable,KP7,Daily,1.56
+2025-05-21 20:13:51,QC11_BIN_4,45.11,Recyclable,QC11,Weekly,1.16
+2025-05-22 00:13:51,QC2_BIN_2,68.98,E-waste,QC2,Weekly,0.6
+2025-05-22 03:13:51,QC12_BIN_1,56.97,Organic,QC12,Daily,1.3
+2025-05-22 06:13:51,QC7_BIN_1,63.16,Mixed,QC7,Twice Weekly,1.94
+2025-05-22 09:13:51,QC6_BIN_3,43.41,Hazardous,QC6,Twice Daily,2.34
+2025-05-22 12:13:51,CentralLibrary_BIN_2,58.93,E-waste,CentralLibrary,Daily,1.92
+2025-05-22 15:13:51,QC4_BIN_2,54.18,Organic,QC4,Twice Weekly,0.58
+2025-05-22 19:13:51,QC1_BIN_1,79.77,Mixed,QC1,Twice Daily,2.29
+2025-05-22 22:13:51,QC9_BIN_4,18.22,Hazardous,QC9,Twice Weekly,2.27
+2025-05-22 23:13:51,KP7_BIN_3,34.46,Organic,KP7,Twice Weekly,0.78
+2025-05-23 01:13:51,KP6_BIN_2,17.55,Mixed,KP6,Weekly,1.56
+2025-05-23 05:13:51,QC4_BIN_1,58.42,Mixed,QC4,Twice Daily,1.96
+2025-05-23 09:13:51,KP1_BIN_3,53.08,Recyclable,KP1,Twice Daily,0.52
